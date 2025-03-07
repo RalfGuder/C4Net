@@ -77,7 +77,12 @@
       <Project>{a04a5e35-61d3-4eef-b495-58310c778287}</Project>
       <Name>C4Net.Metamodel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\C4Net.Templates\C4Net.Templates.csproj">
+      <Project>{d6da7293-720c-4667-b60c-357fd9bd8ec1}</Project>
+      <Name>C4Net.Templates</Name>
+    </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
