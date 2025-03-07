@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ComponentTextContent" TableName="CMPNT_TXT_CNTNT">
+    <Column Name="Id" ColumnName="cmpnt_txt_cntnt_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Text" ColumnName="txt" DataType="string" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

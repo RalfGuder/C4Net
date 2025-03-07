@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Route" TableName="ROUTE">
+    <Column Name="Id" ColumnName="route_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DirectionUsage" ColumnName="dir_usage_code" DataType="string" />
+    <Column Name="Mobility" ColumnName="mob_code" DataType="string" />
+    <Column Name="ModeOfTransportation" ColumnName="mode_of_trnsp_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DECF4802-C519-492C-A4FF-E94DD736775C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MetaModel.Business</RootNamespace>
+    <AssemblyName>MetaModel.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttributeBO.cs" />
+    <Compile Include="BaseBO.cs" />
+    <Compile Include="BusinessRuleBO.cs" />
+    <Compile Include="CardinalityRelBO.cs" />
+    <Compile Include="CardinalityTypeEnum.cs" />
+    <Compile Include="DomainBO.cs" />
+    <Compile Include="DomainValueBO.cs" />
+    <Compile Include="EntityBO.cs" />
+    <Compile Include="MetamodelLoader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StructuredBO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\C4Net.Core.Expressions\C4Net.Core.Expressions.csproj">
+      <Project>{1b54237a-e7b2-41aa-ace4-89152bd239bc}</Project>
+      <Name>C4Net.Core.Expressions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C4Net.Core.NLog\C4Net.Core.NLog.csproj">
+      <Project>{fed26fcb-c8d5-4270-bcf6-51f9cc9b88e9}</Project>
+      <Name>C4Net.Core.NLog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C4Net.Core\C4Net.Core.csproj">
+      <Project>{a94e6998-b88f-4116-a478-ec356278b536}</Project>
+      <Name>C4Net.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C4Net.Data\C4Net.Data.csproj">
+      <Project>{09c6e0ae-0a06-488e-b0dc-a6457c21f64c}</Project>
+      <Name>C4Net.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C4Net.Metamodel\C4Net.Metamodel.csproj">
+      <Project>{a04a5e35-61d3-4eef-b495-58310c778287}</Project>
+      <Name>C4Net.Metamodel</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

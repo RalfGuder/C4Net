@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="CardinalityRelationship" TableName="CARD_REL">
+    <Column Name="ParentEntityId" ColumnName="pa_ent_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ChildEntityId" ColumnName="ch_ent_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="RelationshipIndex" ColumnName="rel_ix" DataType="short" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="VerbNameText" ColumnName="verb_name_txt" DataType="string" AllowNulls="false" />
+    <Column Name="InverseVerbNameText" ColumnName="inv_verb_name_txt" DataType="string" />
+    <Column Name="IdentifyingIndicator" ColumnName="ident_ind_code" DataType="string" AllowNulls="false" />
+    <Column Name="ParentCardinality" ColumnName="pa_card_code" DataType="string" AllowNulls="false" />
+    <Column Name="ChildCardinality" ColumnName="ch_card_code" DataType="string" AllowNulls="false" />
+    <Column Name="ChildMinimumCardinalityCount" ColumnName="ch_mnm_card_cnt" DataType="short" />
+    <Column Name="ChildMaximumCardinalityCount" ColumnName="ch_max_card_cnt" DataType="short" />
+  </Table>
+</Definition>

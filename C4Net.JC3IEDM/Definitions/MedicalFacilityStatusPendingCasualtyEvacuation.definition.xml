@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="MedicalFacilityStatusPendingCasualtyEvacuation" TableName="MFS_PEND_CAS_EVAC">
+    <Column Name="MedicalFacilityStatusId" ColumnName="mfs_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="mfs_cas_evac_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Destination" ColumnName="dest_code" DataType="string" AllowNulls="false" />
+    <Column Name="SittingCount" ColumnName="sitting_cnt" DataType="int" AllowNulls="false" />
+    <Column Name="StretcherCount" ColumnName="stretcher_cnt" DataType="int" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

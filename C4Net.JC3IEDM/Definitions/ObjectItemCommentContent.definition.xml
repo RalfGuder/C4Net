@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ObjectItemCommentContent" TableName="OBJ_ITEM_CMT_CNTNT">
+    <Column Name="ObjectItemId" ColumnName="obj_item_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemCommentIndex" ColumnName="obj_item_cmt_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="obj_item_cmt_cntnt_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Text" ColumnName="txt" DataType="string" AllowNulls="false" />
+    <Column Name="SequenceOrdinal" ColumnName="seq_ord" DataType="short" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

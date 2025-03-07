@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ObjectTypeEstablishmentObjectTypeDetail" TableName="OBJ_TYPE_ESTAB_OBJT_DET">
+    <Column Name="EstablishedObjectTypeId" ColumnName="estabd_obj_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectTypeEstablishmentIndex" ColumnName="obj_type_estab_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="obj_type_estab_objt_det_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="MajorPartIndicator" ColumnName="major_part_ind_code" DataType="string" />
+    <Column Name="Count" ColumnName="cnt" DataType="int" AllowNulls="false" />
+    <Column Name="ObjectTypeId" ColumnName="det_obj_type_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="ObjectTypeEstablishmentDetailObjectTypeEstablishmentIndex" ColumnName="det_obj_type_estab_ix" DataType="decimal" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

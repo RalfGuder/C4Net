@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="AkAttr" TableName="AK_ATTR">
+    <Column Name="EntId" ColumnName="ent_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AttrIx" ColumnName="attr_ix" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AkIx" ColumnName="ak_ix" DataType="double" PrimaryKey="true" AllowNulls="false" />
+  
+  </Table>
+</Definition>

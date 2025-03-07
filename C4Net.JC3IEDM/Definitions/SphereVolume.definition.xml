@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="SphereVolume" TableName="SPHERE_VOL">
+    <Column Name="Id" ColumnName="sphere_vol_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="RadiusDimension" ColumnName="radius_dim" DataType="double" AllowNulls="false" />
+    <Column Name="CentrePointId" ColumnName="sphere_vol_centre_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

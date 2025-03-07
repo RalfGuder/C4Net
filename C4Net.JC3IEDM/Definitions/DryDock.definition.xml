@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="DryDock" TableName="DRY_DOCK">
+    <Column Name="Id" ColumnName="dry_dock_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="BoatLiftCapacityQuantity" ColumnName="boat_lift_cap_qty" DataType="int" />
+    <Column Name="DepthDimension" ColumnName="depth_dim" DataType="double" />
+    <Column Name="LocationText" ColumnName="loc_txt" DataType="string" />
+    <Column Name="MarineRailwaySize" ColumnName="marine_railway_size_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

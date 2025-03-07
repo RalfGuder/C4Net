@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Road" TableName="ROAD">
+    <Column Name="Id" ColumnName="road_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="ShoulderWidth" ColumnName="shoulder_width_code" DataType="string" />
+    <Column Name="TrafficDensityCount" ColumnName="traffic_density_cnt" DataType="short" />
+    <Column Name="WeatherConditionCategory" ColumnName="weather_cond_cat_code" DataType="string" />
+    <Column Name="Quality" ColumnName="quality_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

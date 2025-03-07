@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Jetty" TableName="JETTY">
+    <Column Name="Id" ColumnName="jetty_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DayLimitNetExplosiveQuantity" ColumnName="day_limit_net_expl_qty" DataType="int" />
+    <Column Name="MaximumDeadweightTonnageQuantity" ColumnName="max_ddw_tong_qty" DataType="int" />
+    <Column Name="MaximumDraughtDimension" ColumnName="max_draught_dim" DataType="double" />
+    <Column Name="NightLimitNetExplosiveQuantity" ColumnName="night_limit_net_expl_qty" DataType="int" />
+    <Column Name="RailCapacityCount" ColumnName="rail_cap_cnt" DataType="int" />
+    <Column Name="RailServedIndicator" ColumnName="rail_served_ind_code" DataType="string" />
+    <Column Name="VesselMaximumBeamDimension" ColumnName="vessel_max_beam_dim" DataType="double" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

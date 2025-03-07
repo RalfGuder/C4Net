@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="NetworkServiceStatus" TableName="NETWRK_SERVICE_STAT">
+    <Column Name="NetworkId" ColumnName="netwrk_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="NetworkServiceIndex" ColumnName="netwrk_service_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="netwrk_service_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Indicator" ColumnName="ind_code" DataType="string" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Ent" TableName="ENT">
+    <Column Name="EntId" ColumnName="ent_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="NameTxt" ColumnName="name_txt" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="TabNameTxt" ColumnName="tab_name_txt" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="DefTxt" ColumnName="def_txt" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="DepenCode" ColumnName="depen_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="DepthCnt" ColumnName="depth_cnt" DataType="double" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="StgTypeCode" ColumnName="stg_type_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="StdnLvlCode" ColumnName="stdn_lvl_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="ModLvlCode" ColumnName="mod_lvl_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+  
+  </Table>
+</Definition>

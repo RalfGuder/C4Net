@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="NetworkCapacity" TableName="NETWRK_CAP">
+    <Column Name="NetworkId" ColumnName="netwrk_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="netwrk_cap_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Bandwidth" ColumnName="bandwidth_code" DataType="string" />
+    <Column Name="Protocol" ColumnName="protocol_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

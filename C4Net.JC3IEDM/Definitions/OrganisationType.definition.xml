@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="OrganisationType" TableName="ORG_TYPE">
+    <Column Name="Id" ColumnName="org_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="CommandFunctionIndicator" ColumnName="cmd_func_ind_code" DataType="string" AllowNulls="false" />
+    <Column Name="CommandAndControlCategory" ColumnName="cmd_and_ctrl_cat_code" DataType="string" />
+    <Column Name="DescriptionText" ColumnName="descr_txt" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

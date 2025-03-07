@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="GeographicFeature" TableName="GEO_FEAT">
+    <Column Name="Id" ColumnName="geo_feat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="BottomHardness" ColumnName="btm_hardness_code" DataType="string" />
+    <Column Name="BottomPenetrationQuantity" ColumnName="btm_penetration_qty" DataType="double" />
+    <Column Name="SolidSurfaceComposition" ColumnName="sld_surf_cmps_code" DataType="string" />
+    <Column Name="SurfaceCategory" ColumnName="surf_cat_code" DataType="string" />
+    <Column Name="Terrain" ColumnName="trn_code" DataType="string" />
+    <Column Name="VegetationCategory" ColumnName="veg_cat_code" DataType="string" />
+    <Column Name="VegetationSubcategory" ColumnName="veg_subcat_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

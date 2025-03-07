@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Berth" TableName="BERTH">
+    <Column Name="Id" ColumnName="berth_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DeadweightTonnageQuantity" ColumnName="ddw_tong_qty" DataType="int" />
+    <Column Name="DepthDimension" ColumnName="depth_dim" DataType="double" />
+    <Column Name="LocationText" ColumnName="loc_txt" DataType="string" />
+    <Column Name="MajorVesselClass" ColumnName="major_vessel_class_code" DataType="string" />
+    <Column Name="MaximumBeamDimension" ColumnName="max_beam_dim" DataType="double" />
+    <Column Name="MaximumCapacityQuantity" ColumnName="max_cap_qty" DataType="int" />
+    <Column Name="MaximumVesselCount" ColumnName="max_vessel_cnt" DataType="short" />
+    <Column Name="DayLimitNetExplosiveQuantity" ColumnName="day_limit_net_expl_qty" DataType="int" />
+    <Column Name="NightLimitNetExplosiveQuantity" ColumnName="night_limit_net_expl_qty" DataType="int" />
+    <Column Name="RailAvailabilityIndicator" ColumnName="rail_avlbty_ind_code" DataType="string" />
+    <Column Name="RollOnRollOffIndicator" ColumnName="roll_on_roll_off_ind_code" DataType="string" />
+    <Column Name="TurnaroundTimeDuration" ColumnName="turnaround_time_dur" DataType="decimal" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

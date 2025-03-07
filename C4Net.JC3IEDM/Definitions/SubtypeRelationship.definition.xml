@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="SubtypeRelationship" TableName="SUBT_REL">
+    <Column Name="SuperEntityId" ColumnName="sup_ent_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="SubEntityId" ColumnName="sub_ent_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="RelationshipIndex" ColumnName="rel_ix" DataType="short" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="CategoryRelationshipIndex" ColumnName="cat_ix" DataType="short" AllowNulls="false" />
+    <Column Name="DomainId" ColumnName="dom_id" DataType="int" AllowNulls="false" />
+    <Column Name="DomainValueIndex" ColumnName="dom_val_ix" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

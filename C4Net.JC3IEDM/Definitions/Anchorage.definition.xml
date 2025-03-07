@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Anchorage" TableName="ANCHR">
+    <Column Name="Id" ColumnName="anchr_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="BottomType" ColumnName="btm_type_code" DataType="string" />
+    <Column Name="DayLimitNetExplosiveQuantity" ColumnName="day_limit_net_expl_qty" DataType="int" />
+    <Column Name="DraughtHighTideDimension" ColumnName="draught_high_tide_dim" DataType="double" />
+    <Column Name="DraughtLowTideDimension" ColumnName="draught_low_tide_dim" DataType="double" />
+    <Column Name="MooringsType" ColumnName="moorings_type_code" DataType="string" />
+    <Column Name="NightLimitNetExplosiveQuantity" ColumnName="night_limit_net_expl_qty" DataType="int" />
+    <Column Name="PrevailingWindDirection" ColumnName="prvl_wind_dir_code" DataType="string" />
+    <Column Name="VesselTonnageQuantity" ColumnName="vessel_tong_qty" DataType="int" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

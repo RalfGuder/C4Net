@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="PersonType" TableName="PERS_TYPE">
+    <Column Name="Id" ColumnName="pers_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="Subcategory" ColumnName="subcat_code" DataType="string" />
+    <Column Name="Rank" ColumnName="rank_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

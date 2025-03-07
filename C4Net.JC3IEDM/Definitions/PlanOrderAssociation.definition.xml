@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="PlanOrderAssociation" TableName="POA">
+    <Column Name="SubjectPlanOrderId" ColumnName="poa_subj_pln_ordr_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectPlanOrderId" ColumnName="poa_obj_pln_ordr_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="poa_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="Datetime" ColumnName="dttm" DataType="string" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

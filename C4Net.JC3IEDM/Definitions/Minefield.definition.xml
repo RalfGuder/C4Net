@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Minefield" TableName="MNFLD">
+    <Column Name="Id" ColumnName="mnfld_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="IdentificationText" ColumnName="identific_txt" DataType="string" />
+    <Column Name="MineSpacingDimension" ColumnName="mine_spc_dim" DataType="double" />
+    <Column Name="DestructionDatetime" ColumnName="destruction_dttm" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

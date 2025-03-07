@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Person" TableName="PERS">
+    <Column Name="Id" ColumnName="pers_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="BirthDatetime" ColumnName="birth_dttm" DataType="string" />
+    <Column Name="BloodType" ColumnName="blood_type_code" DataType="string" />
+    <Column Name="Gender" ColumnName="gender_code" DataType="string" />
+    <Column Name="ProfessingIndicator" ColumnName="professing_ind_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

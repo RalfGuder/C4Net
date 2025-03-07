@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="UxoStatus" TableName="UXO_STAT">
+    <Column Name="Id" ColumnName="uxo_stat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Exposure" ColumnName="exp_code" DataType="string" AllowNulls="false" />
+    <Column Name="Qualifier" ColumnName="qual_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

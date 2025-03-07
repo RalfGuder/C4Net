@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="FkAttr" TableName="FK_ATTR">
+    <Column Name="HostEntId" ColumnName="host_ent_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AttrIx" ColumnName="attr_ix" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="RoleDefTxt" ColumnName="role_def_txt" DataType="string" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="RonaIndCode" ColumnName="rona_ind_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="SrcEntId" ColumnName="src_ent_id" DataType="double" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="SrcAttrIx" ColumnName="src_attr_ix" DataType="double" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="MigrRelIx" ColumnName="migr_rel_ix" DataType="double" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="BaseEntId" ColumnName="base_ent_id" DataType="double" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="BaseAttrIx" ColumnName="base_attr_ix" DataType="double" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="UnifAttrIx" ColumnName="unif_attr_ix" DataType="double" PrimaryKey="false" AllowNulls="true" />
+  
+  </Table>
+</Definition>

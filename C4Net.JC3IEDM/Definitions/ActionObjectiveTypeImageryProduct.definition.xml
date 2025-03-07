@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionObjectiveTypeImageryProduct" TableName="ACT_OBJVE_TYPE_IMGRY_PROD">
+    <Column Name="ActionId" ColumnName="act_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionObjectiveIndex" ColumnName="act_objve_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ImageScaleCount" ColumnName="img_scale_cnt" DataType="int" />
+    <Column Name="ImageType" ColumnName="img_type_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

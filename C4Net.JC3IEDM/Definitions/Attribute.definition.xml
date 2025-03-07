@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Attribute" TableName="ATTR">
+    <Column Name="EntityId" ColumnName="ent_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="attr_ix" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="NameText" ColumnName="name_txt" DataType="string" AllowNulls="false" />
+    <Column Name="ColumnNameText" ColumnName="col_name_txt" DataType="string" AllowNulls="false" />
+    <Column Name="SequenceNumberOrdinal" ColumnName="attr_seqnr_ord" DataType="short" AllowNulls="false" />
+    <Column Name="PrimaryKeyIndicator" ColumnName="pk_ind_code" DataType="string" AllowNulls="false" />
+    <Column Name="ForeignKeyIndicator" ColumnName="fk_ind_code" DataType="string" AllowNulls="false" />
+    <Column Name="StandardisationLevel" ColumnName="stdn_lvl_code" DataType="string" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="PersonLanguageSkill" TableName="PERS_LANG_SKILL">
+    <Column Name="PersonId" ColumnName="pers_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="pers_lang_skill_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="GeneralProficiency" ColumnName="gen_prof_code" DataType="string" AllowNulls="false" />
+    <Column Name="ListeningProficiencyLevel" ColumnName="lstng_prof_lvl_code" DataType="string" />
+    <Column Name="ReadingProficiencyLevel" ColumnName="rdng_prof_lvl_code" DataType="string" />
+    <Column Name="SpeakingProficiencyLevel" ColumnName="spkng_prof_lvl_code" DataType="string" />
+    <Column Name="WritingProficiencyLevel" ColumnName="wrtng_prof_lvl_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

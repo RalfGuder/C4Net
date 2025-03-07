@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="MaterielStatus" TableName="MAT_STAT">
+    <Column Name="Id" ColumnName="mat_stat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="BodyColour" ColumnName="body_colour_code" DataType="string" />
+    <Column Name="Marking" ColumnName="marking_code" DataType="string" />
+    <Column Name="MarkingColour" ColumnName="marking_colour_code" DataType="string" />
+    <Column Name="DemolitionStatus" ColumnName="dmltn_stat_code" DataType="string" />
+    <Column Name="ImoCompliantIndicator" ColumnName="imo_compliant_ind_code" DataType="string" />
+    <Column Name="OperationalStatus" ColumnName="operat_stat_code" DataType="string" AllowNulls="false" />
+    <Column Name="OperationalStatusQualifier" ColumnName="operat_stat_qual_code" DataType="string" />
+    <Column Name="OperationalStatusMode" ColumnName="operat_stat_mode_code" DataType="string" />
+    <Column Name="ReserveIndicator" ColumnName="reserve_ind_code" DataType="string" />
+    <Column Name="SafetyStatus" ColumnName="safety_stat_code" DataType="string" />
+    <Column Name="UsageStatus" ColumnName="usage_stat_code" DataType="string" />
+    <Column Name="BuoyMalfunction" ColumnName="buoy_malf_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

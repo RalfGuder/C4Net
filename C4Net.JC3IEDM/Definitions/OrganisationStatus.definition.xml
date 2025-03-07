@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="OrganisationStatus" TableName="ORG_STAT">
+    <Column Name="Id" ColumnName="org_stat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="OperationalStatus" ColumnName="operat_stat_code" DataType="string" AllowNulls="false" />
+    <Column Name="OperationalStatusQualifier" ColumnName="operat_stat_qual_code" DataType="string" />
+    <Column Name="Availability" ColumnName="avlbty_code" DataType="string" />
+    <Column Name="CommandAndControlRole" ColumnName="cmd_and_ctrl_role_code" DataType="string" />
+    <Column Name="CommitmentStatus" ColumnName="cmtmnt_stat_code" DataType="string" />
+    <Column Name="FireMode" ColumnName="fire_mode_code" DataType="string" />
+    <Column Name="CbrnDressState" ColumnName="cbrn_dress_state_code" DataType="string" />
+    <Column Name="RadiationDoseQuantity" ColumnName="rad_dose_qty" DataType="int" />
+    <Column Name="Readiness" ColumnName="rdns_code" DataType="string" />
+    <Column Name="ReadinessDuration" ColumnName="rdns_dur" DataType="decimal" />
+    <Column Name="Reinforcement" ColumnName="reinforce_code" DataType="string" />
+    <Column Name="ReserveIndicator" ColumnName="reserve_ind_code" DataType="string" />
+    <Column Name="Training" ColumnName="training_code" DataType="string" />
+    <Column Name="UsageStatus" ColumnName="usage_stat_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

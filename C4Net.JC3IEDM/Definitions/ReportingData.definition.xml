@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ReportingData" TableName="RPTD">
+    <Column Name="Id" ColumnName="rptd_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Accuracy" ColumnName="acc_code" DataType="string" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="CountingIndicator" ColumnName="cntg_ind_code" DataType="string" />
+    <Column Name="Credibility" ColumnName="credibility_code" DataType="string" />
+    <Column Name="Reliability" ColumnName="reliability_code" DataType="string" />
+    <Column Name="ReportingDatetime" ColumnName="rep_dttm" DataType="string" AllowNulls="false" />
+    <Column Name="SourceType" ColumnName="source_type_code" DataType="string" />
+    <Column Name="TimingCategory" ColumnName="timing_cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="RealDataExerciseUseOnly" ColumnName="real_data_exer_use_only_code" DataType="string" />
+    <Column Name="ReferenceId" ColumnName="ref_id" DataType="decimal" />
+    <Column Name="ReportingOrganisationId" ColumnName="rep_org_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="EntCatCode" ColumnName="ent_cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

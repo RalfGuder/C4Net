@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="BrEntAttrCompDomVal" TableName="BR_ENT_ATTR_COMP_DOM_VAL">
+    <Column Name="BrId" ColumnName="br_id" DataType="double" PrimaryKey="true" AllowNulls="true" />
+    <Column Name="BrEntIx" ColumnName="br_ent_ix" DataType="double" PrimaryKey="true" AllowNulls="true" />
+    <Column Name="BrEntAttrCompIx" ColumnName="br_ent_attr_comp_ix" DataType="double" PrimaryKey="true" AllowNulls="true" />
+    <Column Name="BrEntAttrCompDomValIx" ColumnName="br_ent_attr_comp_dom_val_ix" DataType="double" PrimaryKey="true" AllowNulls="true" />
+    <Column Name="DomId" ColumnName="dom_id" DataType="double" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="DomValIx" ColumnName="dom_val_ix" DataType="double" PrimaryKey="false" AllowNulls="true" />
+  
+  </Table>
+</Definition>

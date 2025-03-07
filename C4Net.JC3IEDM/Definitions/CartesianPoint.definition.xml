@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="CartesianPoint" TableName="CRTS_POINT">
+    <Column Name="Id" ColumnName="crts_point_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="XCoordinateDimension" ColumnName="x_coord_dim" DataType="double" AllowNulls="false" />
+    <Column Name="YCoordinateDimension" ColumnName="y_coord_dim" DataType="double" AllowNulls="false" />
+    <Column Name="ZCoordinateDimension" ColumnName="z_coord_dim" DataType="double" AllowNulls="false" />
+    <Column Name="XPrecision" ColumnName="x_precision_code" DataType="string" />
+    <Column Name="YPrecision" ColumnName="y_precision_code" DataType="string" />
+    <Column Name="ZPrecision" ColumnName="z_precision_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

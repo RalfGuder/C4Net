@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="CreatorUpdateIdentific" TableName="CREATOR_UPDATE_IDENTIFIC">
+    <Column Name="EntId" ColumnName="ent_id" DataType="double" PrimaryKey="true" AllowNulls="true" />
+    <Column Name="CreatorAttrIx" ColumnName="creator_attr_ix" DataType="double" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="UpdateAttrIx" ColumnName="update_attr_ix" DataType="double" PrimaryKey="false" AllowNulls="true" />
+  
+  </Table>
+</Definition>

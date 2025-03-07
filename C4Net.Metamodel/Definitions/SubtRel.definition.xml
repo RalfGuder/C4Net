@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="SubtRel" TableName="SUBT_REL">
+    <Column Name="SupEntId" ColumnName="sup_ent_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="SubEntId" ColumnName="sub_ent_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="RelIx" ColumnName="rel_ix" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="CatIx" ColumnName="cat_ix" DataType="double" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="DomId" ColumnName="dom_id" DataType="double" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="DomValIx" ColumnName="dom_val_ix" DataType="double" PrimaryKey="false" AllowNulls="true" />
+  
+  </Table>
+</Definition>

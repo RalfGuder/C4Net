@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="AffiliationEthnicGroup" TableName="AFFL_ETHNIC_GROUP">
+    <Column Name="AffiliationId" ColumnName="affl_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AffiliationEthnicGroupCode" ColumnName="code" DataType="string" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ForeignKeyAttribute" TableName="FK_ATTR">
+    <Column Name="HostEntityId" ColumnName="host_ent_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AttributeIndex" ColumnName="attr_ix" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="RoleDefinitionText" ColumnName="role_def_txt" DataType="string" />
+    <Column Name="RolenameIndicator" ColumnName="rona_ind_code" DataType="string" AllowNulls="false" />
+    <Column Name="SourceEntityId" ColumnName="src_ent_id" DataType="int" AllowNulls="false" />
+    <Column Name="SourceAttributeIndex" ColumnName="src_attr_ix" DataType="int" AllowNulls="false" />
+    <Column Name="MigratingRelationshipIndex" ColumnName="migr_rel_ix" DataType="short" AllowNulls="false" />
+    <Column Name="BaseEntityId" ColumnName="base_ent_id" DataType="int" AllowNulls="false" />
+    <Column Name="BaseAttributeIndex" ColumnName="base_attr_ix" DataType="int" AllowNulls="false" />
+    <Column Name="UnifyingAttributeIndex" ColumnName="unif_attr_ix" DataType="int" />
+  </Table>
+</Definition>

@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ContextAssessment" TableName="CONTXT_ASSESS">
+    <Column Name="ContextId" ColumnName="contxt_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="contxt_assess_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Text" ColumnName="txt" DataType="string" AllowNulls="false" />
+    <Column Name="LimitingFactors" ColumnName="limiting_factors_code" DataType="string" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

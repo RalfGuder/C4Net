@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="CategoryRelationship" TableName="CAT">
+    <Column Name="SuperEntityId" ColumnName="sup_ent_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="cat_ix" DataType="short" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DefinitionText" ColumnName="def_txt" DataType="string" />
+    <Column Name="DiscriminatorAttributeIndex" ColumnName="discr_ix" DataType="int" AllowNulls="false" />
+    <Column Name="CompletenessIndicator" ColumnName="compl_ind_code" DataType="string" AllowNulls="false" />
+  </Table>
+</Definition>

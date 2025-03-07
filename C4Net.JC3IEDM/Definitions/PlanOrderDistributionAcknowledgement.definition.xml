@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="PlanOrderDistributionAcknowledgement" TableName="PLN_ORDR_DISTR_ACK">
+    <Column Name="PlanOrderId" ColumnName="pln_ordr_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="PlanOrderDistributionIndex" ColumnName="pln_ordr_distr_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="pln_ordr_distr_ack_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="PlanOrderDistributionAcknowledgementCode" ColumnName="code" DataType="string" AllowNulls="false" />
+    <Column Name="Datetime" ColumnName="dttm" DataType="string" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

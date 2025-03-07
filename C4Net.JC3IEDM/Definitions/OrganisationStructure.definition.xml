@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="OrganisationStructure" TableName="ORG_STRUCT">
+    <Column Name="RootOrganisationId" ColumnName="org_struct_root_org_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="org_struct_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="NameText" ColumnName="name_txt" DataType="string" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ReportingDataRelativeTiming" TableName="RPTD_REL_TIMING">
+    <Column Name="ReportingDataId" ColumnName="rptd_rel_timing_rptd_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="OffsetDuration" ColumnName="offset_dur" DataType="decimal" AllowNulls="false" />
+    <Column Name="ReferenceActionTaskId" ColumnName="ref_act_task_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

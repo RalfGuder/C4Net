@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="SurfaceVesselType" TableName="SURF_VESSEL_TYPE">
+    <Column Name="Id" ColumnName="surf_vessel_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="DisplacementQuantity" ColumnName="displ_qty" DataType="int" />
+    <Column Name="MaximumDeckLoadQuantity" ColumnName="max_deck_load_qty" DataType="int" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

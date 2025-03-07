@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="VesselType" TableName="VESSEL_TYPE">
+    <Column Name="Id" ColumnName="vessel_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="MagneticDegaussingCodeNumberQuantity" ColumnName="magn_degaussing_code_no_qty" DataType="long" />
+    <Column Name="PrismaticCoefficientRatio" ColumnName="prismatic_coefficient_rat" DataType="double" />
+    <Column Name="DeadWeightQuantity" ColumnName="dead_wt_qty" DataType="int" />
+    <Column Name="DraughtDimension" ColumnName="draught_dim" DataType="double" />
+    <Column Name="GrossRegisteredTonnageQuantity" ColumnName="gross_rgstrd_tong_qty" DataType="int" />
+    <Column Name="HeightAboveTheWaterlineDimension" ColumnName="height_above_the_wtrln_dim" DataType="double" />
+    <Column Name="PropellerCount" ColumnName="propeller_cnt" DataType="short" />
+    <Column Name="PropulsionType" ColumnName="propulsion_type_code" DataType="string" />
+    <Column Name="OperationalDisplacementQuantity" ColumnName="operat_displ_qty" DataType="int" />
+    <Column Name="MaximumSpeedRate" ColumnName="max_speed_rate" DataType="double" />
+    <Column Name="AcousticMeritIndexQuantity" ColumnName="acoustic_merit_ix_qty" DataType="int" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

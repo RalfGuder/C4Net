@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Relationship" TableName="REL">
+    <Column Name="ParentEntityId" ColumnName="pa_ent_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ChildEntityId" ColumnName="ch_ent_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="rel_ix" DataType="short" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Type" ColumnName="type_code" DataType="string" AllowNulls="false" />
+  </Table>
+</Definition>

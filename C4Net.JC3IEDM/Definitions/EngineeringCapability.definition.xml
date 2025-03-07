@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="EngineeringCapability" TableName="ENG_CAPAB">
+    <Column Name="Id" ColumnName="eng_capab_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="Descriptor" ColumnName="dscpt_code" DataType="string" />
+    <Column Name="FacilityHeightDimension" ColumnName="fac_height_dim" DataType="double" AllowNulls="false" />
+    <Column Name="FacilityLengthDimension" ColumnName="fac_length_dim" DataType="double" AllowNulls="false" />
+    <Column Name="FacilityWidthDimension" ColumnName="fac_width_dim" DataType="double" AllowNulls="false" />
+    <Column Name="FacilityTypeId" ColumnName="fac_type_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

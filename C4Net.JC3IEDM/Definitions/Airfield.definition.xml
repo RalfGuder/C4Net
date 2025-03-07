@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Airfield" TableName="AIRFIELD">
+    <Column Name="Id" ColumnName="airfield_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AirTrafficControlPresenceIndicator" ColumnName="atc_prsnc_ind_code" DataType="string" />
+    <Column Name="HangarAreaQuantity" ColumnName="hngr_area_qty" DataType="int" />
+    <Column Name="InstrumentLandingSystemPresenceIndicator" ColumnName="ils_prsnc_ind_code" DataType="string" />
+    <Column Name="InternationalCivilAviationOrganisationText" ColumnName="intl_civil_avtn_org_txt" DataType="string" />
+    <Column Name="VisualNavigationalAidIndicator" ColumnName="visual_nvtgl_aid_ind_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

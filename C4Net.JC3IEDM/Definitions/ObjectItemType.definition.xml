@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ObjectItemType" TableName="OBJ_ITEM_TYPE">
+    <Column Name="ObjectItemId" ColumnName="obj_item_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectTypeId" ColumnName="obj_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="obj_item_type_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

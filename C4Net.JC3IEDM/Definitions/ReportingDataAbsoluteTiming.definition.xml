@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ReportingDataAbsoluteTiming" TableName="RPTD_ABS_TIMING">
+    <Column Name="ReportingDataId" ColumnName="rptd_abs_timing_rptd_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="EffectiveStartDatetime" ColumnName="effctv_start_dttm" DataType="string" />
+    <Column Name="EffectiveEndDatetime" ColumnName="effctv_end_dttm" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

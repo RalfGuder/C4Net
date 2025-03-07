@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="NuclearWeaponEvent" TableName="NUC_WEAPON_EVENT">
+    <Column Name="Id" ColumnName="nuc_weapon_event_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="FlashToBangDuration" ColumnName="flash_to_bang_dur" DataType="decimal" />
+    <Column Name="CraterPresence" ColumnName="crater_prsnc_code" DataType="string" />
+    <Column Name="CraterWidthDimension" ColumnName="crater_width_dim" DataType="double" />
+    <Column Name="YieldGroup" ColumnName="yield_group_code" DataType="string" />
+    <Column Name="YieldQuantity" ColumnName="yield_qty" DataType="short" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

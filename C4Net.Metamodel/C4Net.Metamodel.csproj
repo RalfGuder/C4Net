@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A04A5E35-61D3-4EEF-B495-58310C778287}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>C4Net.Metamodel</RootNamespace>
+    <AssemblyName>C4Net.Metamodel</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\Auto\AkAttr.auto.cs" />
+    <Compile Include="Entities\Auto\AltKey.auto.cs" />
+    <Compile Include="Entities\Auto\Attr.auto.cs" />
+    <Compile Include="Entities\Auto\BaseAttr.auto.cs" />
+    <Compile Include="Entities\Auto\Br.auto.cs" />
+    <Compile Include="Entities\Auto\BrEnt.auto.cs" />
+    <Compile Include="Entities\Auto\BrEntAttrComp.auto.cs" />
+    <Compile Include="Entities\Auto\BrEntAttrCompDomVal.auto.cs" />
+    <Compile Include="Entities\Auto\CardRel.auto.cs" />
+    <Compile Include="Entities\Auto\Cat.auto.cs" />
+    <Compile Include="Entities\Auto\CreatorUpdateIdentific.auto.cs" />
+    <Compile Include="Entities\Auto\Dom.auto.cs" />
+    <Compile Include="Entities\Auto\DomVal.auto.cs" />
+    <Compile Include="Entities\Auto\Ent.auto.cs" />
+    <Compile Include="Entities\Auto\FkAttr.auto.cs" />
+    <Compile Include="Entities\Auto\NkAttr.auto.cs" />
+    <Compile Include="Entities\Auto\PkAttr.auto.cs" />
+    <Compile Include="Entities\Auto\Rel.auto.cs" />
+    <Compile Include="Entities\Auto\SubtRel.auto.cs" />
+    <Compile Include="Entities\Manual\Attr.manual.cs" />
+    <Compile Include="Entities\Manual\Dom.manual.cs" />
+    <Compile Include="Entities\Manual\Ent.manual.cs" />
+    <Compile Include="Expressions\AkAttrExpression.cs" />
+    <Compile Include="Expressions\AltKeyExpression.cs" />
+    <Compile Include="Expressions\AttrExpression.cs" />
+    <Compile Include="Expressions\BaseAttrExpression.cs" />
+    <Compile Include="Expressions\BrEntAttrCompDomValExpression.cs" />
+    <Compile Include="Expressions\BrEntAttrCompExpression.cs" />
+    <Compile Include="Expressions\BrEntExpression.cs" />
+    <Compile Include="Expressions\BrExpression.cs" />
+    <Compile Include="Expressions\CardRelExpression.cs" />
+    <Compile Include="Expressions\CatExpression.cs" />
+    <Compile Include="Expressions\CreatorUpdateIdentificExpression.cs" />
+    <Compile Include="Expressions\DomExpression.cs" />
+    <Compile Include="Expressions\DomValExpression.cs" />
+    <Compile Include="Expressions\EntExpression.cs" />
+    <Compile Include="Expressions\FkAttrExpression.cs" />
+    <Compile Include="Expressions\NkAttrExpression.cs" />
+    <Compile Include="Expressions\PkAttrExpression.cs" />
+    <Compile Include="Expressions\RelExpression.cs" />
+    <Compile Include="Expressions\SubtRelExpression.cs" />
+    <Compile Include="Interfaces\IAkAttr.cs" />
+    <Compile Include="Interfaces\IAltKey.cs" />
+    <Compile Include="Interfaces\IAttr.cs" />
+    <Compile Include="Interfaces\IBaseAttr.cs" />
+    <Compile Include="Interfaces\IBr.cs" />
+    <Compile Include="Interfaces\IBrEnt.cs" />
+    <Compile Include="Interfaces\IBrEntAttrComp.cs" />
+    <Compile Include="Interfaces\IBrEntAttrCompDomVal.cs" />
+    <Compile Include="Interfaces\ICardRel.cs" />
+    <Compile Include="Interfaces\ICat.cs" />
+    <Compile Include="Interfaces\ICreatorUpdateIdentific.cs" />
+    <Compile Include="Interfaces\IDom.cs" />
+    <Compile Include="Interfaces\IDomVal.cs" />
+    <Compile Include="Interfaces\IEnt.cs" />
+    <Compile Include="Interfaces\IFkAttr.cs" />
+    <Compile Include="Interfaces\INkAttr.cs" />
+    <Compile Include="Interfaces\IPkAttr.cs" />
+    <Compile Include="Interfaces\IRel.cs" />
+    <Compile Include="Interfaces\ISubtRel.cs" />
+    <Compile Include="ModelLoader.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\C4Net.Core.Expressions\C4Net.Core.Expressions.csproj">
+      <Project>{1b54237a-e7b2-41aa-ace4-89152bd239bc}</Project>
+      <Name>C4Net.Core.Expressions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C4Net.Core\C4Net.Core.csproj">
+      <Project>{a94e6998-b88f-4116-a478-ec356278b536}</Project>
+      <Name>C4Net.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C4Net.Data\C4Net.Data.csproj">
+      <Project>{09c6e0ae-0a06-488e-b0dc-a6457c21f64c}</Project>
+      <Name>C4Net.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C4Net.Templates\C4Net.Templates.csproj">
+      <Project>{d6da7293-720c-4667-b60c-357fd9bd8ec1}</Project>
+      <Name>C4Net.Templates</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Definitions\AkAttr.definition.xml" />
+    <EmbeddedResource Include="Definitions\AltKey.definition.xml" />
+    <EmbeddedResource Include="Definitions\Attr.definition.xml" />
+    <EmbeddedResource Include="Definitions\BaseAttr.definition.xml" />
+    <EmbeddedResource Include="Definitions\Br.definition.xml" />
+    <EmbeddedResource Include="Definitions\BrEnt.definition.xml" />
+    <EmbeddedResource Include="Definitions\BrEntAttrComp.definition.xml" />
+    <EmbeddedResource Include="Definitions\BrEntAttrCompDomVal.definition.xml" />
+    <EmbeddedResource Include="Definitions\CardRel.definition.xml" />
+    <EmbeddedResource Include="Definitions\Cat.definition.xml" />
+    <EmbeddedResource Include="Definitions\CreatorUpdateIdentific.definition.xml" />
+    <EmbeddedResource Include="Definitions\Dom.definition.xml" />
+    <EmbeddedResource Include="Definitions\DomVal.definition.xml" />
+    <EmbeddedResource Include="Definitions\Ent.definition.xml" />
+    <EmbeddedResource Include="Definitions\FkAttr.definition.xml" />
+    <EmbeddedResource Include="Definitions\NkAttr.definition.xml" />
+    <EmbeddedResource Include="Definitions\PkAttr.definition.xml" />
+    <EmbeddedResource Include="Definitions\Rel.definition.xml" />
+    <EmbeddedResource Include="Definitions\SubtRel.definition.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

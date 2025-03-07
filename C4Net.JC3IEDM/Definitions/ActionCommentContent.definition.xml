@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionCommentContent" TableName="ACT_CMT_CNTNT">
+    <Column Name="ActionId" ColumnName="act_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionCommentIndex" ColumnName="act_cmt_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="act_cmt_cntnt_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Text" ColumnName="txt" DataType="string" AllowNulls="false" />
+    <Column Name="SequenceOrdinal" ColumnName="seq_ord" DataType="short" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

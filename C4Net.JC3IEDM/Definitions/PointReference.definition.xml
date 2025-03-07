@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="PointReference" TableName="POINT_REF">
+    <Column Name="RelativeCoordinateSystemId" ColumnName="rel_coord_sys_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="OriginPointId" ColumnName="point_ref_orgn_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="XVectorPointId" ColumnName="point_ref_x_vector_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="YVectorPointId" ColumnName="point_ref_y_vector_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

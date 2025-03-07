@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionEffectType" TableName="ACT_EFFECT_TYPE">
+    <Column Name="ActionId" ColumnName="act_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionEffectIndex" ColumnName="act_effect_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Count" ColumnName="cnt" DataType="int" AllowNulls="false" />
+    <Column Name="ObjectTypeId" ColumnName="obj_type_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

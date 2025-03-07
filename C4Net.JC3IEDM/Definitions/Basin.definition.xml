@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Basin" TableName="BASIN">
+    <Column Name="Id" ColumnName="basin_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DeadweightTonnageQuantity" ColumnName="ddw_tong_qty" DataType="int" />
+    <Column Name="DepthDimension" ColumnName="depth_dim" DataType="double" />
+    <Column Name="LocationText" ColumnName="loc_txt" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

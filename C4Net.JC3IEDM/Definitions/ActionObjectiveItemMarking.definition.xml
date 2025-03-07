@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionObjectiveItemMarking" TableName="ACT_OBJVE_ITEM_MARKING">
+    <Column Name="ActionId" ColumnName="act_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionObjectiveIndex" ColumnName="act_objve_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="act_objve_item_marking_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="LaserCorrelationCodeText" ColumnName="laser_correlation_code_txt" DataType="string" />
+    <Column Name="Method" ColumnName="method_code" DataType="string" />
+    <Column Name="PanelShape" ColumnName="panel_shape_code" DataType="string" />
+    <Column Name="RecognitionSignalColour" ColumnName="rcgn_sgnl_colour_code" DataType="string" />
+    <Column Name="StartDatetime" ColumnName="start_dttm" DataType="string" />
+    <Column Name="UsingOrganisationId" ColumnName="using_org_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

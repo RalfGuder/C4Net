@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="MeteorologicFeature" TableName="MET_FEAT">
+    <Column Name="Id" ColumnName="met_feat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="Interpretation" ColumnName="interpretation_code" DataType="string" AllowNulls="false" />
+    <Column Name="ProbabilityRatio" ColumnName="prob_rat" DataType="double" />
+    <Column Name="Source" ColumnName="source_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

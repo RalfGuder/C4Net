@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ObjectTypeCapabilityNorm" TableName="OBJ_TYPE_CAPAB_NORM">
+    <Column Name="ObjectTypeId" ColumnName="obj_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="CapabilityId" ColumnName="capab_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="MissionPrimacy" ColumnName="msn_primacy_code" DataType="string" />
+    <Column Name="Quantity" ColumnName="qty" DataType="double" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

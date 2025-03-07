@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="AltKey" TableName="ALT_KEY">
+    <Column Name="EntId" ColumnName="ent_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AkIx" ColumnName="ak_ix" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AkNoQty" ColumnName="ak_no_qty" DataType="double" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="UniqIndCode" ColumnName="uniq_ind_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+  
+  </Table>
+</Definition>

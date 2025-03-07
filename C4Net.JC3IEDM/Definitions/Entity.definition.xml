@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Entity" TableName="ENT">
+    <Column Name="Id" ColumnName="ent_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="NameText" ColumnName="name_txt" DataType="string" AllowNulls="false" />
+    <Column Name="TableNameText" ColumnName="tab_name_txt" DataType="string" AllowNulls="false" />
+    <Column Name="DefinitionText" ColumnName="def_txt" DataType="string" AllowNulls="false" />
+    <Column Name="Dependency" ColumnName="depen_code" DataType="string" AllowNulls="false" />
+    <Column Name="DepthCount" ColumnName="depth_cnt" DataType="short" AllowNulls="false" />
+    <Column Name="StorageType" ColumnName="stg_type_code" DataType="string" AllowNulls="false" />
+    <Column Name="StandardisationLevel" ColumnName="stdn_lvl_code" DataType="string" AllowNulls="false" />
+    <Column Name="ModelLevel" ColumnName="mod_lvl_code" DataType="string" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionEventStatus" TableName="ACT_EVENT_STAT">
+    <Column Name="ActionEventId" ColumnName="act_event_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="act_event_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="CompletionRatio" ColumnName="compl_rat" DataType="double" />
+    <Column Name="FeintIndicator" ColumnName="feint_ind_code" DataType="string" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

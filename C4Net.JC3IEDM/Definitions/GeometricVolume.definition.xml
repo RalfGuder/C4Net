@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="GeometricVolume" TableName="GEOM_VOL">
+    <Column Name="Id" ColumnName="geom_vol_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="LowerVerticalDistanceId" ColumnName="geom_vol_lower_ver_dist_id" DataType="decimal" />
+    <Column Name="UpperVerticalDistanceId" ColumnName="geom_vol_upper_ver_dist_id" DataType="decimal" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

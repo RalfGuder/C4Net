@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="NonKeyAttribute" TableName="NK_ATTR">
+    <Column Name="EntityId" ColumnName="ent_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AttributeIndex" ColumnName="attr_ix" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="OptionalityIndicator" ColumnName="opt_ind_code" DataType="string" AllowNulls="false" />
+  </Table>
+</Definition>

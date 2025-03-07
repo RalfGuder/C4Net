@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="LiquidSurfaceStatus" TableName="LQD_SURF_STAT">
+    <Column Name="Id" ColumnName="lqd_surf_stat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="SeaState" ColumnName="sea_state_code" DataType="string" />
+    <Column Name="SurfaceCondition" ColumnName="surf_cond_code" DataType="string" />
+    <Column Name="WaveDirection" ColumnName="wave_dir_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

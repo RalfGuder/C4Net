@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionLocation" TableName="ACT_LOC">
+    <Column Name="ActionId" ColumnName="act_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="LocationId" ColumnName="loc_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="act_loc_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AccuracyDimension" ColumnName="acc_dim" DataType="double" />
+    <Column Name="BearingAngle" ColumnName="brng_angle" DataType="double" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

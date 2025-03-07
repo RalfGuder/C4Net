@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Reference" TableName="REF">
+    <Column Name="Id" ColumnName="ref_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ApprovalDatetime" ColumnName="app_dttm" DataType="string" />
+    <Column Name="ContentCategory" ColumnName="cntnt_cat_code" DataType="string" />
+    <Column Name="CreationDatetime" ColumnName="creation_dttm" DataType="string" />
+    <Column Name="DescriptionText" ColumnName="descr_txt" DataType="string" />
+    <Column Name="ElectronicSourceText" ColumnName="elctrnc_source_txt" DataType="string" />
+    <Column Name="FileSizeQuantity" ColumnName="file_size_qty" DataType="int" />
+    <Column Name="FormatText" ColumnName="format_txt" DataType="string" />
+    <Column Name="Language" ColumnName="lang_code" DataType="string" />
+    <Column Name="Lifecycle" ColumnName="lifecycle_code" DataType="string" />
+    <Column Name="MediumType" ColumnName="medium_type_code" DataType="string" />
+    <Column Name="OriginatorText" ColumnName="originator_txt" DataType="string" />
+    <Column Name="PhysicalSizeText" ColumnName="physcl_size_txt" DataType="string" />
+    <Column Name="PrimaryLocationText" ColumnName="prim_loc_txt" DataType="string" />
+    <Column Name="PublicationDatetime" ColumnName="publication_dttm" DataType="string" />
+    <Column Name="ReleasabilityText" ColumnName="releasability_txt" DataType="string" />
+    <Column Name="ShortTitleText" ColumnName="short_title_txt" DataType="string" />
+    <Column Name="TitleText" ColumnName="title_txt" DataType="string" />
+    <Column Name="TransmittalType" ColumnName="trans_type_code" DataType="string" />
+    <Column Name="ValidityPeriodBeginDatetime" ColumnName="validity_period_begin_dttm" DataType="string" />
+    <Column Name="ValidityPeriodEndDatetime" ColumnName="validity_period_end_dttm" DataType="string" />
+    <Column Name="Verification" ColumnName="verf_code" DataType="string" />
+    <Column Name="VersionText" ColumnName="version_txt" DataType="string" />
+    <Column Name="SecurityClassificationId" ColumnName="security_clsfc_id" DataType="decimal" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

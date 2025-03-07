@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Sells" TableName="TableSells">
+    <Column Name="SellId" ColumnName="sell_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Company" ColumnName="Company" DataType="string" />
+    <Column Name="Contry" ColumnName="Contry" DataType="string" />
+    <Column Name="Product" ColumnName="Product" DataType="string" />
+    <Column Name="UnitCost" ColumnName="UnitCost" DataType="decimal" />
+    <Column Name="Lever" ColumnName="Lever" DataType="decimal" />
+    <Column Name="Units" ColumnName="Units" DataType="decimal" />
+    <Column Name="FinalPrice" ColumnName="FinalPrice" DataType="decimal" />
+    <Column Name="UnitCostLever" ColumnName="UnitCostLever" DataType="decimal" />
+    <Column Name="SellDate" ColumnName="SellDate" DataType="DateTime" />
+  </Table>
+</Definition>

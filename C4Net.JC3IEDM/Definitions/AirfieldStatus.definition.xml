@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="AirfieldStatus" TableName="AIRFIELD_STAT">
+    <Column Name="Id" ColumnName="airfield_stat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DayOperations" ColumnName="day_opers_code" DataType="string" />
+    <Column Name="FlightSupportCategory" ColumnName="flight_supp_cat_code" DataType="string" />
+    <Column Name="EvaluationIndicator" ColumnName="eval_ind_code" DataType="string" />
+    <Column Name="MaximumNbacThroughputCount" ColumnName="max_nbac_thpt_cnt" DataType="short" />
+    <Column Name="MaximumNbacParkCount" ColumnName="max_nbac_park_cnt" DataType="short" />
+    <Column Name="MaximumWbacThroughputCount" ColumnName="max_wbac_thpt_cnt" DataType="short" />
+    <Column Name="MaximumWbacParkCount" ColumnName="max_wbac_park_cnt" DataType="short" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

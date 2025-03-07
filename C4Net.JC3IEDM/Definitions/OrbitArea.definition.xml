@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="OrbitArea" TableName="ORBIT_AREA">
+    <Column Name="Id" ColumnName="orbit_area_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Alignment" ColumnName="alignment_code" DataType="string" AllowNulls="false" />
+    <Column Name="WidthDimension" ColumnName="width_dim" DataType="double" AllowNulls="false" />
+    <Column Name="FirstPointId" ColumnName="orbit_area_first_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="SecondPointId" ColumnName="orbit_area_scnd_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

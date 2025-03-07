@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Network" TableName="NETWRK">
+    <Column Name="Id" ColumnName="netwrk_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="Subcategory" ColumnName="subcat_code" DataType="string" />
+    <Column Name="Architecture" ColumnName="arch_code" DataType="string" />
+    <Column Name="ChannelCount" ColumnName="chnl_cnt" DataType="int" />
+    <Column Name="MaximumCapacityRate" ColumnName="max_cap_rate" DataType="double" />
+    <Column Name="MinimumCapacityRate" ColumnName="mnm_cap_rate" DataType="double" />
+    <Column Name="Means" ColumnName="means_code" DataType="string" />
+    <Column Name="SetNumberCount" ColumnName="set_no_cnt" DataType="int" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

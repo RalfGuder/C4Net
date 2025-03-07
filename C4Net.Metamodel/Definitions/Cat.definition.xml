@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Cat" TableName="CAT">
+    <Column Name="SupEntId" ColumnName="sup_ent_id" DataType="double" PrimaryKey="true" AllowNulls="true" />
+    <Column Name="CatIx" ColumnName="cat_ix" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DefTxt" ColumnName="def_txt" DataType="string" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="DiscrIx" ColumnName="discr_ix" DataType="double" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="ComplIndCode" ColumnName="compl_ind_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+  
+  </Table>
+</Definition>

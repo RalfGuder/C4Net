@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Wind" TableName="WIND">
+    <Column Name="Id" ColumnName="wind_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" />
+    <Column Name="AirStabilityCategory" ColumnName="air_stability_cat_code" DataType="string" />
+    <Column Name="AltitudeLayer" ColumnName="altitude_layer_code" DataType="string" />
+    <Column Name="DirectionAngle" ColumnName="dir_angle" DataType="double" />
+    <Column Name="EffectiveDownwindDirectionAngle" ColumnName="effctv_downwind_dir_angle" DataType="double" />
+    <Column Name="SpeedRate" ColumnName="speed_rate" DataType="double" />
+    <Column Name="NuclearYieldQualifier" ColumnName="nuc_yield_qual_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

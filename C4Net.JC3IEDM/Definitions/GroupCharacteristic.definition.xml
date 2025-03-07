@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="GroupCharacteristic" TableName="GROUP_CHRCT">
+    <Column Name="Id" ColumnName="group_chrct_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AgeGroup" ColumnName="age_group_code" DataType="string" />
+    <Column Name="Malady" ColumnName="malady_code" DataType="string" />
+    <Column Name="MaladyTransmissibilityIndicator" ColumnName="malady_trnsmsbl_ind_code" DataType="string" />
+    <Column Name="Gender" ColumnName="gender_code" DataType="string" />
+    <Column Name="Language" ColumnName="lang_code" DataType="string" />
+    <Column Name="Triage" ColumnName="triage_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

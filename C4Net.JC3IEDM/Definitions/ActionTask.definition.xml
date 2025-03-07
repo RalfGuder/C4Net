@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionTask" TableName="ACT_TASK">
+    <Column Name="Id" ColumnName="act_task_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="Activity" ColumnName="actv_code" DataType="string" AllowNulls="false" />
+    <Column Name="MinimumDuration" ColumnName="mnm_dur" DataType="decimal" />
+    <Column Name="EstimatedDuration" ColumnName="estimated_dur" DataType="decimal" />
+    <Column Name="MaximumDuration" ColumnName="max_dur" DataType="decimal" />
+    <Column Name="PlannedStartDatetime" ColumnName="plnd_start_dttm" DataType="string" />
+    <Column Name="StartQualifier" ColumnName="start_qual_code" DataType="string" />
+    <Column Name="PlannedEndDatetime" ColumnName="plnd_end_dttm" DataType="string" />
+    <Column Name="EndQualifier" ColumnName="end_qual_code" DataType="string" />
+    <Column Name="Priority" ColumnName="prio_code" DataType="string" />
+    <Column Name="EntailedSafetyDegree" ColumnName="entld_safety_degree_code" DataType="string" />
+    <Column Name="OvertCovert" ColumnName="overt_covert_code" DataType="string" />
+    <Column Name="DetailText" ColumnName="det_txt" DataType="string" />
+    <Column Name="TimingDay" ColumnName="timing_day_code" DataType="string" />
+    <Column Name="TimingHour" ColumnName="timing_hour_code" DataType="string" />
+    <Column Name="MeteorologicalImpact" ColumnName="meteorological_impact_code" DataType="string" />
+    <Column Name="OperationalLevel" ColumnName="operat_lvl_code" DataType="string" />
+    <Column Name="CandidateTargetListId" ColumnName="ctgtlst_id" DataType="decimal" />
+    <Column Name="OrganisationStructureRootOrganisationId" ColumnName="org_struct_root_org_id" DataType="decimal" />
+    <Column Name="OrganisationStructureIndex" ColumnName="org_struct_ix" DataType="decimal" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="VerticalDistance" TableName="VER_DIST">
+    <Column Name="Id" ColumnName="ver_dist_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Reference" ColumnName="ref_code" DataType="string" AllowNulls="false" />
+    <Column Name="Dimension" ColumnName="dim" DataType="double" AllowNulls="false" />
+    <Column Name="Precision" ColumnName="precision_code" DataType="string" />
+    <Column Name="DatumText" ColumnName="datum_txt" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

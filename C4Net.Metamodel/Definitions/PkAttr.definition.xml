@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="PkAttr" TableName="PK_ATTR">
+    <Column Name="EntId" ColumnName="ent_id" DataType="double" PrimaryKey="true" AllowNulls="true" />
+    <Column Name="AttrIx" ColumnName="attr_ix" DataType="double" PrimaryKey="true" AllowNulls="true" />
+  
+  </Table>
+</Definition>

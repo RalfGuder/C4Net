@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="MinefieldMaritime" TableName="MNFLD_MRT">
+    <Column Name="Id" ColumnName="mnfld_mrt_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DepthPlacement" ColumnName="depth_plcmnt_code" DataType="string" />
+    <Column Name="ExpectedVesselTransitCount" ColumnName="expct_vessel_transit_cnt" DataType="int" />
+    <Column Name="Function" ColumnName="func_code" DataType="string" />
+    <Column Name="MmoeInitialThreatProbabilityRatio" ColumnName="mmoe_initial_thrt_prob_rat" DataType="double" />
+    <Column Name="DetectionProbabilityRatio" ColumnName="dtctn_prob_rat" DataType="double" />
+    <Column Name="LifeDuration" ColumnName="life_dur" DataType="decimal" />
+    <Column Name="MineDetailedText" ColumnName="mine_detld_txt" DataType="string" />
+    <Column Name="MinesLaidCount" ColumnName="mines_laid_cnt" DataType="int" />
+    <Column Name="BottomNaturalCamouflage" ColumnName="btm_natural_camo_code" DataType="string" />
+    <Column Name="Subfunction" ColumnName="subf_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

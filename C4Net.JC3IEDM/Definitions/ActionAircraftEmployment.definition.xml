@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionAircraftEmployment" TableName="ACT_ACFT_EMPLOY">
+    <Column Name="ActionId" ColumnName="act_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionResourceIndex" ColumnName="act_res_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionResourceEmploymentIndex" ColumnName="act_res_employ_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ApproachOffset" ColumnName="appr_offset_code" DataType="string" />
+    <Column Name="DeplanementMethod" ColumnName="deplane_method_code" DataType="string" />
+    <Column Name="EgressDirectionAngle" ColumnName="egress_dir_angle" DataType="double" />
+    <Column Name="InflightReportRequirementIndicator" ColumnName="iflrp_reqmnt_ind_code" DataType="string" />
+    <Column Name="IngressDirectionAngle" ColumnName="ingress_dir_angle" DataType="double" />
+    <Column Name="CrewComposition" ColumnName="crew_cmps_code" DataType="string" />
+    <Column Name="GeneralRole" ColumnName="gen_role_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

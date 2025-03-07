@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ObjectItemHostilityStatus" TableName="OBJ_ITEM_HSTLY_STAT">
+    <Column Name="ObjectItemId" ColumnName="obj_item_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="obj_item_hstly_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemHostilityStatusCode" ColumnName="code" DataType="string" AllowNulls="false" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

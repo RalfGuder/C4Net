@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Materiel" TableName="MAT">
+    <Column Name="Id" ColumnName="mat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="SerialNumberIdentificationText" ColumnName="serial_no_id_txt" DataType="string" />
+    <Column Name="LotIdentificationText" ColumnName="lot_identific_txt" DataType="string" />
+    <Column Name="HullNumberText" ColumnName="hull_no_txt" DataType="string" />
+    <Column Name="MineRequisitionCaseNumberText" ColumnName="mine_rqn_case_no_txt" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

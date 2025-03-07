@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Holding" TableName="HOLDING">
+    <Column Name="ObjectItemId" ColumnName="obj_item_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectTypeId" ColumnName="obj_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="holding_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="OperationalCount" ColumnName="operat_cnt" DataType="int" />
+    <Column Name="TotalQuantity" ColumnName="total_qty" DataType="int" />
+    <Column Name="OnHandQuantity" ColumnName="on_hand_qty" DataType="int" />
+    <Column Name="RequiredTotalQuantity" ColumnName="req_total_qty" DataType="int" />
+    <Column Name="RequiredOnHandQuantity" ColumnName="req_on_hand_qty" DataType="int" />
+    <Column Name="RequiredCalculationMethod" ColumnName="req_mthd_calc_code" DataType="string" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

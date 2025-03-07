@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ObjectItemLocation" TableName="OBJ_ITEM_LOC">
+    <Column Name="ObjectItemId" ColumnName="obj_item_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="LocationId" ColumnName="loc_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="obj_item_loc_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="VerticalAccuracyDimension" ColumnName="ver_acc_dim" DataType="double" />
+    <Column Name="HorizontalAccuracyDimension" ColumnName="horz_acc_dim" DataType="double" />
+    <Column Name="BearingAngle" ColumnName="brng_angle" DataType="double" />
+    <Column Name="BearingAccuracyAngle" ColumnName="brng_acc_angle" DataType="double" />
+    <Column Name="BearingPrecision" ColumnName="brng_precision_code" DataType="string" />
+    <Column Name="InclinationAngle" ColumnName="incl_angle" DataType="double" />
+    <Column Name="InclinationAccuracyAngle" ColumnName="incl_acc_angle" DataType="double" />
+    <Column Name="InclinationPrecision" ColumnName="incl_precision_code" DataType="string" />
+    <Column Name="SpeedRate" ColumnName="speed_rate" DataType="double" />
+    <Column Name="SpeedAccuracyRate" ColumnName="speed_acc_rate" DataType="double" />
+    <Column Name="SpeedPrecision" ColumnName="speed_precision_code" DataType="string" />
+    <Column Name="Meaning" ColumnName="meaning_code" DataType="string" />
+    <Column Name="RelativeSpeed" ColumnName="rel_speed_code" DataType="string" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

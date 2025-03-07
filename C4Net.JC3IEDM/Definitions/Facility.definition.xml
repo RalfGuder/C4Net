@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Facility" TableName="FAC">
+    <Column Name="Id" ColumnName="fac_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="PrimaryConstructionMaterial" ColumnName="prim_const_matrl_code" DataType="string" />
+    <Column Name="BaseIdentificationCodeText" ColumnName="base_identific_code_txt" DataType="string" />
+    <Column Name="HeightDimension" ColumnName="height_dim" DataType="double" />
+    <Column Name="LengthDimension" ColumnName="length_dim" DataType="double" />
+    <Column Name="WidthDimension" ColumnName="width_dim" DataType="double" />
+    <Column Name="MajorBuildingTypeId" ColumnName="fac_major_building_type_id" DataType="decimal" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

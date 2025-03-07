@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ObjectItemObjectTypeEstablishment" TableName="OBJ_ITEM_OBJ_TYPE_ESTAB">
+    <Column Name="ObjectItemId" ColumnName="obj_item_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="EstablishedObjectTypeId" ColumnName="estabd_obj_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectTypeEstablishmentIndex" ColumnName="obj_type_estab_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="obj_item_obj_type_estab_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="EffectiveDatetime" ColumnName="effctv_dttm" DataType="string" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

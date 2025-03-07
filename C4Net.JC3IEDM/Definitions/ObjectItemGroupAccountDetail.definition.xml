@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ObjectItemGroupAccountDetail" TableName="OBJ_ITEM_GROUP_ACCT_DET">
+    <Column Name="ObjectItemId" ColumnName="obj_item_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemGroupAccountIndex" ColumnName="obj_item_group_acct_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="obj_item_group_acct_det_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Count" ColumnName="cnt" DataType="int" AllowNulls="false" />
+    <Column Name="Qualifier" ColumnName="qual_code" DataType="string" />
+    <Column Name="GroupCharacteristicId" ColumnName="group_chrct_id" DataType="decimal" />
+    <Column Name="PersonTypeId" ColumnName="pers_type_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

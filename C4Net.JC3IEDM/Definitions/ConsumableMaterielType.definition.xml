@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ConsumableMaterielType" TableName="CONS_MAT_TYPE">
+    <Column Name="Id" ColumnName="cons_mat_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="Subcategory" ColumnName="subcat_code" DataType="string" />
+    <Column Name="Hazard" ColumnName="hazard_code" DataType="string" />
+    <Column Name="IssuingElement" ColumnName="issuing_elmt_code" DataType="string" />
+    <Column Name="IssuingCount" ColumnName="issuing_cnt" DataType="int" />
+    <Column Name="IssuingUnitOfMeasure" ColumnName="issuing_uom_code" DataType="string" />
+    <Column Name="IssuingWeightQuantity" ColumnName="issuing_wt_qty" DataType="double" />
+    <Column Name="PerishabilityIndicator" ColumnName="perishability_ind_code" DataType="string" />
+    <Column Name="UnitedNationsNumber" ColumnName="united_nations_no_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="LinePoint" TableName="LINE_POINT">
+    <Column Name="LineId" ColumnName="line_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="line_point_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="SequenceOrdinal" ColumnName="seq_ord" DataType="int" AllowNulls="false" />
+    <Column Name="PointId" ColumnName="point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

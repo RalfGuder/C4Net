@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="WeaponType" TableName="WEAPON_TYPE">
+    <Column Name="Id" ColumnName="weapon_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="Subcategory" ColumnName="subcat_code" DataType="string" />
+    <Column Name="CalibreText" ColumnName="calibre_txt" DataType="string" />
+    <Column Name="FireGuidanceIndicator" ColumnName="fire_guidance_ind_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

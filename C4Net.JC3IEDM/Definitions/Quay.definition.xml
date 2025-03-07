@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Quay" TableName="QUAY">
+    <Column Name="Id" ColumnName="quay_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ContainerHandlingType" ColumnName="cntr_hndl_type_code" DataType="string" />
+    <Column Name="ContainerMaximumHandlingLengthDimension" ColumnName="cntr_max_hndl_length_dim" DataType="double" />
+    <Column Name="ContainerMaximumHandlingWeightQuantity" ColumnName="cntr_max_hndl_wt_qty" DataType="int" />
+    <Column Name="CraneOffloadingLiftQuantity" ColumnName="crane_ofld_lift_qty" DataType="int" />
+    <Column Name="CraneOffloadingType" ColumnName="crane_ofld_type_code" DataType="string" />
+    <Column Name="DayLimitNetExplosiveQuantity" ColumnName="day_limit_net_expl_qty" DataType="int" />
+    <Column Name="DraughtDimension" ColumnName="draught_dim" DataType="double" />
+    <Column Name="MaximumDeadweightTonnageQuantity" ColumnName="max_ddw_tong_qty" DataType="int" />
+    <Column Name="NightLimitNetExplosiveQuantity" ColumnName="night_limit_net_expl_qty" DataType="int" />
+    <Column Name="RailCapacityCount" ColumnName="rail_cap_cnt" DataType="int" />
+    <Column Name="RailServedIndicator" ColumnName="rail_served_ind_code" DataType="string" />
+    <Column Name="Storage" ColumnName="storage_code" DataType="string" />
+    <Column Name="VesselMaximumBeamDimension" ColumnName="vessel_max_beam_dim" DataType="double" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

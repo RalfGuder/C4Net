@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Runway" TableName="RUNWAY">
+    <Column Name="Id" ColumnName="runway_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="LightingPresenceIndicator" ColumnName="lgtng_prsnc_ind_code" DataType="string" />
+    <Column Name="WeightBearingCapacityQuantity" ColumnName="wt_brng_cap_qty" DataType="double" />
+    <Column Name="PavementClassificationNumberCount" ColumnName="pvm_clsfc_no_cnt" DataType="int" />
+    <Column Name="PavementType" ColumnName="pvm_type_code" DataType="string" />
+    <Column Name="PavementSubgradeCategory" ColumnName="pvm_subgrade_cat_code" DataType="string" />
+    <Column Name="PavementMaximumTyrePressure" ColumnName="pvm_max_tyre_prs_code" DataType="string" />
+    <Column Name="PavementEvaluationMethod" ColumnName="pvm_eval_method_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

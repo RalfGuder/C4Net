@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="GeographicPoint" TableName="GEO_POINT">
+    <Column Name="Id" ColumnName="geo_point_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="LatitudeCoordinate" ColumnName="lat_coord" DataType="double" AllowNulls="false" />
+    <Column Name="LongitudeCoordinate" ColumnName="long_coord" DataType="double" AllowNulls="false" />
+    <Column Name="LatitudePrecision" ColumnName="lat_precision_code" DataType="string" />
+    <Column Name="LongitudePrecision" ColumnName="long_precision_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionTaskStatus" TableName="ACT_TASK_STAT">
+    <Column Name="ActionTaskId" ColumnName="act_task_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="act_task_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="CompletionRatio" ColumnName="compl_rat" DataType="double" />
+    <Column Name="PlanningIndicator" ColumnName="planning_ind_code" DataType="string" />
+    <Column Name="Progress" ColumnName="progress_code" DataType="string" />
+    <Column Name="AmendTiming" ColumnName="amend_timing_code" DataType="string" />
+    <Column Name="ApprovalIndicator" ColumnName="app_ind_code" DataType="string" />
+    <Column Name="FeintIndicator" ColumnName="feint_ind_code" DataType="string" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

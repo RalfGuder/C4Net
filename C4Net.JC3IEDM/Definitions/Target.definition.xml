@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Target" TableName="TARGET">
+    <Column Name="ActionId" ColumnName="act_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionObjectiveIndex" ColumnName="act_objve_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="EngagementAuthority" ColumnName="engage_authy_code" DataType="string" />
+    <Column Name="IdentifierText" ColumnName="id_txt" DataType="string" />
+    <Column Name="PersistenceDuration" ColumnName="persistence_dur" DataType="decimal" />
+    <Column Name="DescriptionText" ColumnName="descr_txt" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

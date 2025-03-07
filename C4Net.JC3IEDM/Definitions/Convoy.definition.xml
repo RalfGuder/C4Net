@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Convoy" TableName="CONVOY">
+    <Column Name="Id" ColumnName="convoy_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DaySpeedRate" ColumnName="day_speed_rate" DataType="double" />
+    <Column Name="DayVehicleGapDimension" ColumnName="day_vehicle_gap_dim" DataType="double" />
+    <Column Name="HaltDuration" ColumnName="halt_dur" DataType="decimal" />
+    <Column Name="NightSpeedRate" ColumnName="night_speed_rate" DataType="double" />
+    <Column Name="NightVehicleGapDimension" ColumnName="night_vehicle_gap_dim" DataType="double" />
+    <Column Name="PacketGapDimension" ColumnName="packet_gap_dim" DataType="double" />
+    <Column Name="PacketSizeCount" ColumnName="packet_size_cnt" DataType="int" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

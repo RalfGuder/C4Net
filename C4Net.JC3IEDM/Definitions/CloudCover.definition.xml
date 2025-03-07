@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="CloudCover" TableName="CLOUD_COVER">
+    <Column Name="Id" ColumnName="cloud_cover_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="BaseDimension" ColumnName="base_dim" DataType="double" />
+    <Column Name="TopDimension" ColumnName="top_dim" DataType="double" />
+    <Column Name="AverageCoverage" ColumnName="avg_cvrg_code" DataType="string" />
+    <Column Name="LightRefractionRatio" ColumnName="light_refraction_rat" DataType="double" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

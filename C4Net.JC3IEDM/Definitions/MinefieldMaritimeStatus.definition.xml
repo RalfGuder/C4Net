@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="MinefieldMaritimeStatus" TableName="MNFLD_MRT_STAT">
+    <Column Name="Id" ColumnName="mnfld_mrt_stat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="MinefieldMaritimeStatusCode" ColumnName="code" DataType="string" />
+    <Column Name="Colour" ColumnName="colour_code" DataType="string" />
+    <Column Name="ExpectedLevelMcm" ColumnName="expct_lvl_mcm_code" DataType="string" />
+    <Column Name="MinesDetectedQuantity" ColumnName="mines_detected_qty" DataType="int" />
+    <Column Name="MinesDetectedCount" ColumnName="mines_detected_cnt" DataType="int" />
+    <Column Name="MineZoneRisk" ColumnName="mine_zone_risk_code" DataType="string" />
+    <Column Name="Seeding" ColumnName="seeding_code" DataType="string" />
+    <Column Name="SweptDepthQuantity" ColumnName="swept_depth_qty" DataType="double" />
+    <Column Name="ThreatRatio" ColumnName="thrt_rat" DataType="double" />
+    <Column Name="MineDetection" ColumnName="mine_dtctn_code" DataType="string" />
+    <Column Name="MinesCount" ColumnName="mines_cnt" DataType="int" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

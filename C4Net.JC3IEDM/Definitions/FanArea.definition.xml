@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="FanArea" TableName="FAN_AREA">
+    <Column Name="Id" ColumnName="fan_area_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="MinimumRangeDimension" ColumnName="mnm_range_dim" DataType="double" AllowNulls="false" />
+    <Column Name="MaximumRangeDimension" ColumnName="max_range_dim" DataType="double" />
+    <Column Name="OrientationAngle" ColumnName="orient_angle" DataType="double" AllowNulls="false" />
+    <Column Name="SectorSizeAngle" ColumnName="sctr_size_angle" DataType="double" AllowNulls="false" />
+    <Column Name="VertexPointId" ColumnName="fan_area_vertex_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

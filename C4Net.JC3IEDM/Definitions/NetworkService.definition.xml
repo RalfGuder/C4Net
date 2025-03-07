@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="NetworkService" TableName="NETWRK_SERVICE">
+    <Column Name="NetworkId" ColumnName="netwrk_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="netwrk_service_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="Subcategory" ColumnName="subcat_code" DataType="string" />
+    <Column Name="CryptographicIndicator" ColumnName="crypto_ind_code" DataType="string" />
+    <Column Name="CryptographicPlanShortTitleText" ColumnName="crypto_plan_short_title_txt" DataType="string" />
+    <Column Name="CryptographicCodeShortTitleText" ColumnName="crypto_code_short_title_txt" DataType="string" />
+    <Column Name="IffModeCodeText" ColumnName="iff_mode_code_txt" DataType="string" />
+    <Column Name="SecurityClassificationId" ColumnName="security_clsfc_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

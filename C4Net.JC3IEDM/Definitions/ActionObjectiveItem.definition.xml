@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionObjectiveItem" TableName="ACT_OBJVE_ITEM">
+    <Column Name="ActionId" ColumnName="act_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionObjectiveIndex" ColumnName="act_objve_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="Primacy" ColumnName="primacy_code" DataType="string" />
+    <Column Name="CandidateTargetListId" ColumnName="ctgtlst_id" DataType="decimal" />
+    <Column Name="CandidateTargetDetailItemIndex" ColumnName="ctgtdet_item_ix" DataType="decimal" />
+    <Column Name="ObjectItemId" ColumnName="obj_item_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

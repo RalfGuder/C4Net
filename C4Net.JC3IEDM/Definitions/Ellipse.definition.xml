@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Ellipse" TableName="ELPS">
+    <Column Name="Id" ColumnName="elps_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="CentrePointId" ColumnName="elps_centre_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="FirstConjugateDiameterPointId" ColumnName="elps_first_cnjg_diam_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="SecondConjugateDiameterPointId" ColumnName="elps_scnd_cnjg_diam_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

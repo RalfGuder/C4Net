@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Bridge" TableName="BRIDGE">
+    <Column Name="Id" ColumnName="bridge_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="LongestSpanLengthDimension" ColumnName="longest_span_length_dim" DataType="double" />
+    <Column Name="SpanCount" ColumnName="span_cnt" DataType="short" />
+    <Column Name="Usage" ColumnName="usage_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

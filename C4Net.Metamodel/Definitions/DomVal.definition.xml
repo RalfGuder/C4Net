@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="DomVal" TableName="DOM_VAL">
+    <Column Name="DomId" ColumnName="dom_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DomValIx" ColumnName="dom_val_ix" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DescrTxt" ColumnName="descr_txt" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="NameTxt" ColumnName="name_txt" DataType="string" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="DefTxt" ColumnName="def_txt" DataType="string" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="TypeCode" ColumnName="type_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="StdnLvlCode" ColumnName="stdn_lvl_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="SrcTxt" ColumnName="src_txt" DataType="string" PrimaryKey="false" AllowNulls="true" />
+  
+  </Table>
+</Definition>

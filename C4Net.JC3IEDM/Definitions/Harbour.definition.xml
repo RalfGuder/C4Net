@@ -1,0 +1,51 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Harbour" TableName="HRBR">
+    <Column Name="Id" ColumnName="hrbr_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AirportNearIndicator" ColumnName="airport_near_ind_code" DataType="string" />
+    <Column Name="ApproachChannelDepthDimension" ColumnName="appr_chnl_depth_dim" DataType="double" />
+    <Column Name="BiologicallySecureAvailabilityIndicator" ColumnName="biolg_secure_avlbty_ind_code" DataType="string" />
+    <Column Name="ConvoyMarshallingIndicator" ColumnName="convoy_mrshl_ind_code" DataType="string" />
+    <Column Name="DayLimitNetExplosiveQuantity" ColumnName="day_limit_net_expl_qty" DataType="int" />
+    <Column Name="NightLimitNetExplosiveQuantity" ColumnName="night_limit_net_expl_qty" DataType="int" />
+    <Column Name="DegaussingIndicator" ColumnName="degaussing_ind_code" DataType="string" />
+    <Column Name="DirtyBallastIndicator" ColumnName="dirty_ballast_ind_code" DataType="string" />
+    <Column Name="EntranceRestrictionsIceIndicator" ColumnName="entr_restr_ice_ind_code" DataType="string" />
+    <Column Name="EntranceRestrictionsSwellIndicator" ColumnName="entr_restr_swell_ind_code" DataType="string" />
+    <Column Name="EntranceRestrictionsText" ColumnName="entr_restr_txt" DataType="string" />
+    <Column Name="EstimatedTimeOfArrivalIndicator" ColumnName="eta_ind_code" DataType="string" />
+    <Column Name="FireFightingCapability" ColumnName="fire_fighting_capab_code" DataType="string" />
+    <Column Name="FireFightingIndicator" ColumnName="fire_fighting_ind_code" DataType="string" />
+    <Column Name="FirstPortOfEntryIndicator" ColumnName="first_port_of_entry_ind_code" DataType="string" />
+    <Column Name="FreshWaterAvailabilityIndicator" ColumnName="fresh_water_avlbty_ind_code" DataType="string" />
+    <Column Name="LashIndicator" ColumnName="lash_ind_code" DataType="string" />
+    <Column Name="LighterageAvailabilityIndicator" ColumnName="lighterage_avlbty_ind_code" DataType="string" />
+    <Column Name="MaximumVesselDraughtDimension" ColumnName="max_vessel_draught_dim" DataType="double" />
+    <Column Name="MaximumVesselLengthDimension" ColumnName="max_vessel_length_dim" DataType="double" />
+    <Column Name="MaximumVesselWidthDimension" ColumnName="max_vessel_width_dim" DataType="double" />
+    <Column Name="MeanTidalCurrentRate" ColumnName="mean_tidal_curr_rate" DataType="double" />
+    <Column Name="PassengerHandlingIndicator" ColumnName="psgr_hndl_ind_code" DataType="string" />
+    <Column Name="Persistence" ColumnName="persistence_code" DataType="string" />
+    <Column Name="OverheadLimitsIndicator" ColumnName="overhead_limits_ind_code" DataType="string" />
+    <Column Name="PilotageAvailabilityIndicator" ColumnName="pilotage_avlbty_ind_code" DataType="string" />
+    <Column Name="PilotageRequirementIndicator" ColumnName="pilotage_reqmnt_ind_code" DataType="string" />
+    <Column Name="PrevailingWindDirection" ColumnName="prvl_wind_dir_code" DataType="string" />
+    <Column Name="PrevailingWindMaximumSpeed" ColumnName="prvl_wind_max_speed_code" DataType="string" />
+    <Column Name="PrevailingWindMaximumSpeedRate" ColumnName="prvl_wind_max_speed_rate" DataType="double" />
+    <Column Name="RefuellingAvailabilityIndicator" ColumnName="refl_avlbty_ind_code" DataType="string" />
+    <Column Name="RefuellingLocationText" ColumnName="refl_loc_txt" DataType="string" />
+    <Column Name="RefuellingType" ColumnName="refl_type_code" DataType="string" />
+    <Column Name="SeasonalDetailText" ColumnName="seasonal_det_txt" DataType="string" />
+    <Column Name="ShelterQuality" ColumnName="shelter_qual_code" DataType="string" />
+    <Column Name="TankerFacilitiesIndicator" ColumnName="tanker_facilities_ind_code" DataType="string" />
+    <Column Name="TidalMeanNeapRangeDimension" ColumnName="tidal_mean_neap_range_dim" DataType="double" />
+    <Column Name="TidalMeanSpringRangeDimension" ColumnName="tidal_mean_spring_range_dim" DataType="double" />
+    <Column Name="TidalText" ColumnName="tidal_txt" DataType="string" />
+    <Column Name="TransitAccommodationIndicator" ColumnName="trnst_acom_ind_code" DataType="string" />
+    <Column Name="TugAvailabilityIndicator" ColumnName="tug_avlbty_ind_code" DataType="string" />
+    <Column Name="TurningAreaIndicator" ColumnName="turning_area_ind_code" DataType="string" />
+    <Column Name="VehicleHandlingType" ColumnName="vehicle_hndl_type_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

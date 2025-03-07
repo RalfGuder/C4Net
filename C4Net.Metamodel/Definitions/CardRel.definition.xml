@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="CardRel" TableName="CARD_REL">
+    <Column Name="PaEntId" ColumnName="pa_ent_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ChEntId" ColumnName="ch_ent_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="RelIx" ColumnName="rel_ix" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="VerbNameTxt" ColumnName="verb_name_txt" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="InvVerbNameTxt" ColumnName="inv_verb_name_txt" DataType="string" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="IdentIndCode" ColumnName="ident_ind_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="PaCardCode" ColumnName="pa_card_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="ChCardCode" ColumnName="ch_card_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="ChMnmCardCnt" ColumnName="ch_mnm_card_cnt" DataType="double" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="ChMaxCardCnt" ColumnName="ch_max_card_cnt" DataType="double" PrimaryKey="false" AllowNulls="true" />
+  
+  </Table>
+</Definition>

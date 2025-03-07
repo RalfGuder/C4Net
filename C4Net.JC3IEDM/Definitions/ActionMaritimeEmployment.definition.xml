@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionMaritimeEmployment" TableName="ACT_MRT_EMPLOY">
+    <Column Name="ActionId" ColumnName="act_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionResourceIndex" ColumnName="act_res_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionResourceEmploymentIndex" ColumnName="act_res_employ_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="CoordinatedAirSeaProcedure" ColumnName="casp_code" DataType="string" />
+    <Column Name="NumberRunsRequiredCount" ColumnName="no_runs_req_cnt" DataType="short" />
+    <Column Name="SweptLaneActuationWidthDimension" ColumnName="swept_lane_actu_width_dim" DataType="double" />
+    <Column Name="VesselTransitInstruction" ColumnName="vessel_trnst_instr_code" DataType="string" />
+    <Column Name="VesselTransitRecommendedSpeedRate" ColumnName="vessel_trnst_rcmdd_speed_rate" DataType="double" />
+    <Column Name="VesselTransitLongitudinalSpacingDimension" ColumnName="vessel_trnst_lngtd_spc_dim" DataType="double" />
+    <Column Name="GroupVesselTransitLongitudinalSpacingDimension" ColumnName="grp_vessel_trnst_lngtd_spc_dim" DataType="double" />
+    <Column Name="LeadVesselNameText" ColumnName="lead_vessel_name_txt" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

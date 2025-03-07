@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="PlanStatus" TableName="PLN_STAT">
+    <Column Name="PlanId" ColumnName="pln_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="pln_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DevelopmentStatus" ColumnName="dvlpm_stat_code" DataType="string" AllowNulls="false" />
+    <Column Name="State" ColumnName="state_code" DataType="string" />
+    <Column Name="Datetime" ColumnName="dttm" DataType="string" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

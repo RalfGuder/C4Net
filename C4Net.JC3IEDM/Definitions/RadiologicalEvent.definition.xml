@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="RadiologicalEvent" TableName="RADLGC_EVENT">
+    <Column Name="Id" ColumnName="radlgc_event_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ReleaseCategory" ColumnName="release_cat_code" DataType="string" />
+    <Column Name="IsotopeConcentrationRatio" ColumnName="isotope_cncntr_rat" DataType="double" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

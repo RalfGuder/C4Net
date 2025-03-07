@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="NetworkFrequency" TableName="NETWRK_FREQ">
+    <Column Name="NetworkId" ColumnName="netwrk_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="netwrk_freq_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Band" ColumnName="band_code" DataType="string" />
+    <Column Name="ChannelNumberText" ColumnName="chnl_no_txt" DataType="string" />
+    <Column Name="DiscreteFrequencyQuantity" ColumnName="discrete_freq_qty" DataType="int" />
+    <Column Name="BandLowerFrequencyQuantity" ColumnName="band_lower_freq_qty" DataType="int" />
+    <Column Name="BandUpperFrequencyQuantity" ColumnName="band_upper_freq_qty" DataType="int" />
+    <Column Name="EffectiveStartDatetime" ColumnName="effctv_start_dttm" DataType="string" AllowNulls="false" />
+    <Column Name="EffectiveEndDatetime" ColumnName="effctv_end_dttm" DataType="string" />
+    <Column Name="Modulation" ColumnName="mdltn_code" DataType="string" />
+    <Column Name="PurposeText" ColumnName="purpose_txt" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

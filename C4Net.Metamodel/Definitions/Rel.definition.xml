@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Rel" TableName="REL">
+    <Column Name="PaEntId" ColumnName="pa_ent_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ChEntId" ColumnName="ch_ent_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="RelIx" ColumnName="rel_ix" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="TypeCode" ColumnName="type_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+  
+  </Table>
+</Definition>

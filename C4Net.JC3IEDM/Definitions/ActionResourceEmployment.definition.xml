@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionResourceEmployment" TableName="ACT_RES_EMPLOY">
+    <Column Name="ActionId" ColumnName="act_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionResourceIndex" ColumnName="act_res_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="act_res_employ_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="AzimuthFireAngle" ColumnName="azimuth_fire_angle" DataType="double" />
+    <Column Name="MethodOfControl" ColumnName="method_of_ctrl_code" DataType="string" />
+    <Column Name="TrajectoryFire" ColumnName="trajectory_fire_code" DataType="string" />
+    <Column Name="ActionObjectiveIndex" ColumnName="act_objve_ix" DataType="decimal" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

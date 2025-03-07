@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="PolyarcArea" TableName="PLYRC_AREA">
+    <Column Name="Id" ColumnName="plyrc_area_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="BeginBearingAngle" ColumnName="begin_brng_angle" DataType="double" AllowNulls="false" />
+    <Column Name="EndBearingAngle" ColumnName="end_brng_angle" DataType="double" AllowNulls="false" />
+    <Column Name="ArcRadiusDimension" ColumnName="arc_radius_dim" DataType="double" AllowNulls="false" />
+    <Column Name="DefiningLineId" ColumnName="plyrc_area_dfng_line_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="BearingOriginPointId" ColumnName="plyrc_area_brng_orgn_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

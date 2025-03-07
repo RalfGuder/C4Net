@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="MinefieldLand" TableName="MNFLD_LAND">
+    <Column Name="Id" ColumnName="mnfld_land_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DepthPlacement" ColumnName="depth_plcmnt_code" DataType="string" />
+    <Column Name="Function" ColumnName="func_code" DataType="string" />
+    <Column Name="Pattern" ColumnName="pattern_code" DataType="string" />
+    <Column Name="Persistence" ColumnName="persistence_code" DataType="string" />
+    <Column Name="StoppingPower" ColumnName="stopping_power_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="BusinessRuleEntity" TableName="BR_ENT">
+    <Column Name="BusinessRuleId" ColumnName="br_id" DataType="long" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="br_ent_ix" DataType="long" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="EntityOfInterestId" ColumnName="ent_of_interest_id" DataType="int" AllowNulls="false" />
+  </Table>
+</Definition>

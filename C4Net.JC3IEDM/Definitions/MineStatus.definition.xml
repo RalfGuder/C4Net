@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="MineStatus" TableName="MINE_STAT">
+    <Column Name="Id" ColumnName="mine_stat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="MineBuriedRatio" ColumnName="mine_buried_rat" DataType="double" />
+    <Column Name="MineStatusCode" ColumnName="code" DataType="string" />
+    <Column Name="AirDropEffect" ColumnName="air_drop_effect_code" DataType="string" />
+    <Column Name="MaritimeMineQualifier" ColumnName="mrt_mine_qual_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

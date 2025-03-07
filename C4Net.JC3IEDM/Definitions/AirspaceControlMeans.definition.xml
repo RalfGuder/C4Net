@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="AirspaceControlMeans" TableName="ARSP_CTRL_MEANS">
+    <Column Name="Id" ColumnName="arsp_ctrl_means_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="TransitInstructionText" ColumnName="trnst_instr_txt" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="BusinessRuleEntityAttributeCompositeDomainValue" TableName="BR_ENT_ATTR_COMP_DOM_VAL">
+    <Column Name="BusinessRuleId" ColumnName="br_id" DataType="long" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="BusinessRuleEntityIndex" ColumnName="br_ent_ix" DataType="long" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="BusinessRuleEntityAttributeCompositeIndex" ColumnName="br_ent_attr_comp_ix" DataType="long" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="br_ent_attr_comp_dom_val_ix" DataType="long" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DomainId" ColumnName="dom_id" DataType="int" AllowNulls="false" />
+    <Column Name="DomainValueIndex" ColumnName="dom_val_ix" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

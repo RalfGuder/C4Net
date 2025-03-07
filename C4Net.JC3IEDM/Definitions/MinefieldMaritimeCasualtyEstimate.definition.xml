@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="MinefieldMaritimeCasualtyEstimate" TableName="MNFLD_MRT_CAS_EST">
+    <Column Name="MinefieldMaritimeId" ColumnName="mnfld_mrt_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="mnfld_mrt_cas_est_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AverageCount" ColumnName="avg_cnt" DataType="int" />
+    <Column Name="GivenTransitCount" ColumnName="given_transit_cnt" DataType="int" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

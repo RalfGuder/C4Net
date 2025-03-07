@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="LiquidBodyStatus" TableName="LQD_BODY_STAT">
+    <Column Name="Id" ColumnName="lqd_body_stat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="BottomCurrentRate" ColumnName="btm_curr_rate" DataType="double" />
+    <Column Name="ThermalLayerDepthQuantity" ColumnName="thermal_layer_depth_qty" DataType="short" />
+    <Column Name="TidalStreamRate" ColumnName="tidal_stream_rate" DataType="double" />
+    <Column Name="UnderwaterVisibilityQuantity" ColumnName="underwater_visibility_qty" DataType="short" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

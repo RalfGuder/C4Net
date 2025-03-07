@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Dom" TableName="DOM">
+    <Column Name="DomId" ColumnName="dom_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="NameTxt" ColumnName="name_txt" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="DefTxt" ColumnName="def_txt" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="ClassNameTxt" ColumnName="class_name_txt" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="RestrTypeCode" ColumnName="restr_type_code" DataType="string" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="MeasUnitDescrTxt" ColumnName="meas_unit_descr_txt" DataType="string" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="PaDomId" ColumnName="pa_dom_id" DataType="double" PrimaryKey="False" AllowNulls="true" />
+    <Column Name="StdnLvlCode" ColumnName="stdn_lvl_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="ModLvlCode" ColumnName="mod_lvl_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="DefSrcTxt" ColumnName="def_src_txt" DataType="string" PrimaryKey="false" AllowNulls="true" />
+  
+  </Table>
+</Definition>

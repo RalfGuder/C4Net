@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="AlternateKey" TableName="ALT_KEY">
+    <Column Name="EntityId" ColumnName="ent_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="ak_ix" DataType="short" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="NumberQuantity" ColumnName="ak_no_qty" DataType="short" AllowNulls="false" />
+    <Column Name="UniquenessIndicator" ColumnName="uniq_ind_code" DataType="string" AllowNulls="false" />
+  </Table>
+</Definition>

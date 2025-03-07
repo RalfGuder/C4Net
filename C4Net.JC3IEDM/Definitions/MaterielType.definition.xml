@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="MaterielType" TableName="MAT_TYPE">
+    <Column Name="Id" ColumnName="mat_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="ReportableItemText" ColumnName="rptbl_item_txt" DataType="string" />
+    <Column Name="StockNumberText" ColumnName="stock_no_txt" DataType="string" />
+    <Column Name="SupplyClass" ColumnName="supply_class_code" DataType="string" />
+    <Column Name="IssuingHeightDimension" ColumnName="issuing_height_dim" DataType="double" />
+    <Column Name="IssuingLengthDimension" ColumnName="issuing_length_dim" DataType="double" />
+    <Column Name="IssuingWidthDimension" ColumnName="issuing_width_dim" DataType="double" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

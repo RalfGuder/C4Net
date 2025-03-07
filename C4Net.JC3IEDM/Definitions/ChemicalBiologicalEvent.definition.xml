@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ChemicalBiologicalEvent" TableName="CHM_BIO_EVENT">
+    <Column Name="Id" ColumnName="chm_bio_event_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="ReleaseCategory" ColumnName="release_cat_code" DataType="string" />
+    <Column Name="SpillSize" ColumnName="spill_size_code" DataType="string" />
+    <Column Name="ReleaseHeightDimension" ColumnName="release_height_dim" DataType="double" />
+    <Column Name="VolumeConcentrationQuantity" ColumnName="vol_cncntr_qty" DataType="double" />
+    <Column Name="SurfaceDepositionQuantity" ColumnName="surf_dep_qty" DataType="double" />
+    <Column Name="AtmosphericParticleConcentrationQuantity" ColumnName="atmspc_prtcl_cncntr_qty" DataType="double" />
+    <Column Name="MassFractionConcentrationQuantity" ColumnName="mass_frac_cncntr_qty" DataType="double" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

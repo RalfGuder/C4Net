@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Unit" TableName="UNIT">
+    <Column Name="Id" ColumnName="unit_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="FormalAbbreviatedNameText" ColumnName="formal_abbrd_name_txt" DataType="string" AllowNulls="false" />
+    <Column Name="IdentificationText" ColumnName="identific_txt" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

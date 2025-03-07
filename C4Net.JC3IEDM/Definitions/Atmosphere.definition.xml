@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Atmosphere" TableName="ATMOSPHERE">
+    <Column Name="Id" ColumnName="atmosphere_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="HumidityRatio" ColumnName="humidity_rat" DataType="double" />
+    <Column Name="InversionLayer" ColumnName="inversion_layer_code" DataType="string" />
+    <Column Name="PressureQuantity" ColumnName="prs_qty" DataType="double" />
+    <Column Name="PressureSystemCategory" ColumnName="prs_sys_cat_code" DataType="string" />
+    <Column Name="Temperature" ColumnName="tmpr" DataType="double" />
+    <Column Name="TemperatureGradient" ColumnName="tmpr_gradient_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

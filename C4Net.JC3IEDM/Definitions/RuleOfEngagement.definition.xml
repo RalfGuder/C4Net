@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="RuleOfEngagement" TableName="ROE">
+    <Column Name="Id" ColumnName="roe_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="NameText" ColumnName="name_txt" DataType="string" />
+    <Column Name="DescriptionText" ColumnName="descr_txt" DataType="string" AllowNulls="false" />
+    <Column Name="OwningOrganisationId" ColumnName="owning_org_id" DataType="decimal" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

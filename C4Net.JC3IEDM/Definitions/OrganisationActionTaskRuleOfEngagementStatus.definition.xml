@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="OrganisationActionTaskRuleOfEngagementStatus" TableName="ORG_ACT_TASK_ROE_STAT">
+    <Column Name="ActionTaskId" ColumnName="act_task_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="RuleOfEngagementId" ColumnName="roe_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="OrganisationId" ColumnName="org_act_task_roe_stat_org_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="org_act_task_roe_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="EffectiveStartDatetime" ColumnName="effctv_start_dttm" DataType="string" />
+    <Column Name="EffectiveEndDatetime" ColumnName="effctv_end_dttm" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

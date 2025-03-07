@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="MinefieldMaritimeSustainedThreatMeasureOfEffectiveness" TableName="MNFLD_MRT_SUST_THRT_MOE">
+    <Column Name="MinefieldMaritimeId" ColumnName="mnfld_mrt_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="mnfld_mrt_sust_thrt_moe_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="PlannedDuration" ColumnName="plnd_dur" DataType="decimal" />
+    <Column Name="ProbabilityRatio" ColumnName="prob_rat" DataType="double" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

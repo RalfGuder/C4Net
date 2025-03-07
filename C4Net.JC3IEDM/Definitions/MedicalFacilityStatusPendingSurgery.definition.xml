@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="MedicalFacilityStatusPendingSurgery" TableName="MFS_PEND_SURGERY">
+    <Column Name="MedicalFacilityStatusId" ColumnName="mfs_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="mfs_pend_surgery_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Triage" ColumnName="triage_code" DataType="string" AllowNulls="false" />
+    <Column Name="Count" ColumnName="cnt" DataType="int" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

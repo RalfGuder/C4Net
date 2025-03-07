@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="CandidateTargetDetail" TableName="CTGTDET">
+    <Column Name="CandidateTargetListId" ColumnName="ctgtlst_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="ctgtdet_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="FocusType" ColumnName="focus_type_code" DataType="string" AllowNulls="false" />
+    <Column Name="LabelText" ColumnName="label_txt" DataType="string" />
+    <Column Name="PriorityOrdinal" ColumnName="prio_ord" DataType="int" />
+    <Column Name="Scheme" ColumnName="scheme_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

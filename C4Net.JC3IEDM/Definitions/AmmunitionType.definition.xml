@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="AmmunitionType" TableName="AMMO_TYPE">
+    <Column Name="Id" ColumnName="ammo_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="CalibreText" ColumnName="calibre_txt" DataType="string" />
+    <Column Name="MineMaritimeFiring" ColumnName="mine_mrt_firing_code" DataType="string" />
+    <Column Name="ExerciseMineFlareColour" ColumnName="exer_mine_flare_colour_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

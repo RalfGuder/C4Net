@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="SolidSurfaceStatus" TableName="SLD_SURF_STAT">
+    <Column Name="Id" ColumnName="sld_surf_stat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="SolidSurfaceStatusCode" ColumnName="code" DataType="string" AllowNulls="false" />
+    <Column Name="DemolitionStatus" ColumnName="dmltn_stat_code" DataType="string" />
+    <Column Name="SurfaceCondition" ColumnName="surf_cond_code" DataType="string" />
+    <Column Name="SurfaceFirmness" ColumnName="surf_firm_code" DataType="string" />
+    <Column Name="VegetationCategory" ColumnName="veg_cat_code" DataType="string" />
+    <Column Name="VegetationSubcategory" ColumnName="veg_subcat_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

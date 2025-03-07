@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="OrganisationActionAssociation" TableName="ORG_ACT_ASSOC">
+    <Column Name="OrganisationId" ColumnName="org_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionId" ColumnName="act_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="org_act_assoc_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="EffectiveDatetime" ColumnName="effctv_dttm" DataType="string" />
+    <Column Name="IntentText" ColumnName="intent_txt" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="BaseAttr" TableName="BASE_ATTR">
+    <Column Name="EntId" ColumnName="ent_id" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AttrIx" ColumnName="attr_ix" DataType="double" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DefTxt" ColumnName="def_txt" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="DataTypeCode" ColumnName="data_type_code" DataType="string" PrimaryKey="false" AllowNulls="false" />
+    <Column Name="DataLenCnt" ColumnName="data_len_cnt" DataType="double" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="DataDecCnt" ColumnName="data_dec_cnt" DataType="double" PrimaryKey="false" AllowNulls="true" />
+    <Column Name="DomId" ColumnName="dom_id" DataType="double" PrimaryKey="false" AllowNulls="false" />
+  
+  </Table>
+</Definition>

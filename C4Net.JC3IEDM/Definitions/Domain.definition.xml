@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Domain" TableName="DOM">
+    <Column Name="Id" ColumnName="dom_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="NameText" ColumnName="name_txt" DataType="string" AllowNulls="false" />
+    <Column Name="DefinitionText" ColumnName="def_txt" DataType="string" AllowNulls="false" />
+    <Column Name="ClassNameText" ColumnName="class_name_txt" DataType="string" AllowNulls="false" />
+    <Column Name="RestrictionType" ColumnName="restr_type_code" DataType="string" />
+    <Column Name="MeasurementUnitDescriptionText" ColumnName="meas_unit_descr_txt" DataType="string" />
+    <Column Name="ParentDomainId" ColumnName="pa_dom_id" DataType="int" />
+    <Column Name="StandardisationLevel" ColumnName="stdn_lvl_code" DataType="string" AllowNulls="false" />
+    <Column Name="ModelLevel" ColumnName="mod_lvl_code" DataType="string" AllowNulls="false" />
+    <Column Name="DefinitionSourceText" ColumnName="def_src_txt" DataType="string" />
+  </Table>
+</Definition>

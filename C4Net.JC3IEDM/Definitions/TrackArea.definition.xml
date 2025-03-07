@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="TrackArea" TableName="TRACK_AREA">
+    <Column Name="Id" ColumnName="track_area_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="LeftWidthDimension" ColumnName="left_width_dim" DataType="double" AllowNulls="false" />
+    <Column Name="RightWidthDimension" ColumnName="right_width_dim" DataType="double" AllowNulls="false" />
+    <Column Name="BeginPointId" ColumnName="track_area_begin_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="EndPointId" ColumnName="track_area_end_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

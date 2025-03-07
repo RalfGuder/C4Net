@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="CandidateTargetDetailAuthorisation" TableName="CTGTDET_AUTH">
+    <Column Name="CandidateTargetListId" ColumnName="ctgtlst_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="CandidateTargetDetailIndex" ColumnName="ctgtdet_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="ctgtdet_auth_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Approval" ColumnName="app_code" DataType="string" AllowNulls="false" />
+    <Column Name="PriorityOrdinal" ColumnName="prio_ord" DataType="int" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

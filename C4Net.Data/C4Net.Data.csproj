@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{09C6E0AE-0A06-488E-B0DC-A6457C21F64C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>C4Net.Data</RootNamespace>
+    <AssemblyName>C4Net.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapters\DataAdapterBase.cs" />
+    <Compile Include="Adapters\DataObjectAdapter.cs" />
+    <Compile Include="Interfaces\IDataContext.cs" />
+    <Compile Include="DataContext.cs" />
+    <Compile Include="Attributes\AttrIxAttribute.cs" />
+    <Compile Include="Attributes\AttrSeqnrAttribute.cs" />
+    <Compile Include="Attributes\AttrNameAttribute.cs" />
+    <Compile Include="Attributes\AttrColumnNameAttribute.cs" />
+    <Compile Include="Attributes\DataDecimalsAttribute.cs" />
+    <Compile Include="Attributes\DataLengthAttribute.cs" />
+    <Compile Include="Attributes\MandatoryAttribute.cs" />
+    <Compile Include="Attributes\ForeignKeyAttribute.cs" />
+    <Compile Include="Attributes\PrimaryKeyAttribute.cs" />
+    <Compile Include="Attributes\EntDepthAttribute.cs" />
+    <Compile Include="Attributes\EntTableNameAttribute.cs" />
+    <Compile Include="Attributes\EntNameAttribute.cs" />
+    <Compile Include="Attributes\EntIdAttribute.cs" />
+    <Compile Include="Attributes\DomIdAttribute.cs" />
+    <Compile Include="Attributes\DomValIxAttribute.cs" />
+    <Compile Include="Builders\CommandType.cs" />
+    <Compile Include="Builders\ConditionCommandBuilder.cs" />
+    <Compile Include="Builders\ExpressionCommandBuilder.cs" />
+    <Compile Include="DAL\BaseDAL.cs" />
+    <Compile Include="Definitions\DefinitionManager.cs" />
+    <Compile Include="Definitions\DefinitionNameAttribute.cs" />
+    <Compile Include="Base\BaseCommand.cs" />
+    <Compile Include="Base\BaseParameter.cs" />
+    <Compile Include="Base\BaseParameterCollection.cs" />
+    <Compile Include="Base\CommandConverter.cs" />
+    <Compile Include="Definitions\DefinitionXmlReader.cs" />
+    <Compile Include="Base\Transactionable.cs" />
+    <Compile Include="Builders\CommandBuilder.cs" />
+    <Compile Include="Definitions\ColumnDefinition.cs" />
+    <Compile Include="Definitions\TableDefinition.cs" />
+    <Compile Include="Connections\DbConnectionInfo.cs" />
+    <Compile Include="Connections\DbConnectionManager.cs" />
+    <Compile Include="Entity\AllEntityDict.cs" />
+    <Compile Include="Entity\EntityDict.cs" />
+    <Compile Include="Entity\EntityHelper.cs" />
+    <Compile Include="Entity\EntityHelperManager.cs" />
+    <Compile Include="Entity\IEntityHelper.cs" />
+    <Compile Include="Expressions\Evaluator\ExprCandidates.cs" />
+    <Compile Include="Expressions\Evaluator\ExprEvaluator.cs" />
+    <Compile Include="Expressions\Evaluator\ExprReviewer.cs" />
+    <Compile Include="Expressions\IQueryableObject.cs" />
+    <Compile Include="Expressions\QueryableObject.cs" />
+    <Compile Include="Interfaces\IEntity.cs" />
+    <Compile Include="Interfaces\IRepository.cs" />
+    <Compile Include="Interfaces\IUnitOfWork.cs" />
+    <Compile Include="Providers\DbProviderInfo.cs" />
+    <Compile Include="Providers\DbProviderManager.cs" />
+    <Compile Include="Connections\IDbConnectionManager.cs" />
+    <Compile Include="Providers\IDbProviderManager.cs" />
+    <Compile Include="Repository.cs" />
+    <Compile Include="Transactions\ITransactionFactory.cs" />
+    <Compile Include="Transactions\ITransactionManager.cs" />
+    <Compile Include="Transactions\TransactionFactory.cs" />
+    <Compile Include="Transactions\TransactionManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitOfWork.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\C4Net.Core.Expressions\C4Net.Core.Expressions.csproj">
+      <Project>{1b54237a-e7b2-41aa-ace4-89152bd239bc}</Project>
+      <Name>C4Net.Core.Expressions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\C4Net.Core\C4Net.Core.csproj">
+      <Project>{a94e6998-b88f-4116-a478-ec356278b536}</Project>
+      <Name>C4Net.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

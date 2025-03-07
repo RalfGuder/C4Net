@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="SubsurfaceVesselType" TableName="SUBSURF_VESSEL_TYPE">
+    <Column Name="Id" ColumnName="subsurf_vessel_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="DivedDisplacementQuantity" ColumnName="dived_displ_qty" DataType="int" />
+    <Column Name="SpeedCavitationQuantity" ColumnName="speed_cavitation_qty" DataType="short" />
+    <Column Name="TorpedoLoadingGearIndicator" ColumnName="torpedo_loading_gear_ind_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

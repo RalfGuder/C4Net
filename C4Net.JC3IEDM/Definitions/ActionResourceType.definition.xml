@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionResourceType" TableName="ACT_RES_TYPE">
+    <Column Name="ActionId" ColumnName="act_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionResourceIndex" ColumnName="act_res_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Quantity" ColumnName="qty" DataType="int" />
+    <Column Name="ApportionmentRatio" ColumnName="aprtnmt_rat" DataType="double" />
+    <Column Name="ObjectTypeId" ColumnName="obj_type_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

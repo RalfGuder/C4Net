@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="HoldingTransfer" TableName="HOLDING_TRNSF">
+    <Column Name="ObjectItemId" ColumnName="obj_item_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectTypeId" ColumnName="obj_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="HoldingIndex" ColumnName="holding_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="holding_trnsf_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Reason" ColumnName="reason_code" DataType="string" AllowNulls="false" />
+    <Column Name="Quantity" ColumnName="qty" DataType="int" AllowNulls="false" />
+    <Column Name="CorrespondingObjectItemId" ColumnName="holding_trnsf_crsp_obj_item_id" DataType="decimal" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

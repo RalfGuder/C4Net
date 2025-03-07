@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="EquipmentType" TableName="EQPT_TYPE">
+    <Column Name="Id" ColumnName="eqpt_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="LoadedWeightQuantity" ColumnName="loaded_wt_qty" DataType="double" />
+    <Column Name="UnloadedWeightQuantity" ColumnName="unloaded_wt_qty" DataType="double" />
+    <Column Name="MaximumHeightDimension" ColumnName="max_height_dim" DataType="double" />
+    <Column Name="MaximumLengthDimension" ColumnName="max_length_dim" DataType="double" />
+    <Column Name="MaximumWidthDimension" ColumnName="max_width_dim" DataType="double" />
+    <Column Name="FuelCapacityQuantity" ColumnName="fuel_cap_qty" DataType="int" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

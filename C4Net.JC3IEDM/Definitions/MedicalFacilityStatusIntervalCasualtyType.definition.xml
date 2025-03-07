@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="MedicalFacilityStatusIntervalCasualtyType" TableName="MFS_INTVL_CAS_TYPE">
+    <Column Name="MedicalFacilityStatusId" ColumnName="mfs_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="mfs_intvl_cas_type_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="MedicalFacilityStatusIntervalCasualtyTypeCode" ColumnName="code" DataType="string" AllowNulls="false" />
+    <Column Name="ArrivalCount" ColumnName="arrival_cnt" DataType="int" AllowNulls="false" />
+    <Column Name="AdmittedCount" ColumnName="admitted_cnt" DataType="int" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

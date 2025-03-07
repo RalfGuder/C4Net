@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Light" TableName="LIGHT">
+    <Column Name="Id" ColumnName="light_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" />
+    <Column Name="UpDatetime" ColumnName="up_dttm" DataType="string" />
+    <Column Name="DownDatetime" ColumnName="down_dttm" DataType="string" />
+    <Column Name="MoonPhase" ColumnName="moon_phase_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

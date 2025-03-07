@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="OrganisationMaterielTypeAssociation" TableName="ORG_MAT_TYPE_ASSOC">
+    <Column Name="OrganisationId" ColumnName="org_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="MaterielTypeId" ColumnName="mat_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ReportableType" ColumnName="rptbl_type_code" DataType="string" AllowNulls="false" />
+    <Column Name="ReportableTypeText" ColumnName="rptbl_type_txt" DataType="string" AllowNulls="false" />
+    <Column Name="ReportableTypeDatetime" ColumnName="rptbl_type_dttm" DataType="string" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

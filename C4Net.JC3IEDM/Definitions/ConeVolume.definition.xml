@@ -1,0 +1,10 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ConeVolume" TableName="CONE_VOL">
+    <Column Name="Id" ColumnName="cone_vol_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DefiningSurfaceId" ColumnName="cone_vol_dfng_surf_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="VertexPointId" ColumnName="vertex_point_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="PlanOrderComponentContent" TableName="POC_CNTNT">
+    <Column Name="PlanOrderId" ColumnName="pln_ordr_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="PlanOrderComponentIndex" ColumnName="poc_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="poc_cntnt_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Datetime" ColumnName="dttm" DataType="string" AllowNulls="false" />
+    <Column Name="SequenceOrdinal" ColumnName="seq_ord" DataType="int" />
+    <Column Name="ComponentHeaderContentId" ColumnName="cmpnt_hdr_cntnt_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="ComponentTextContentId" ColumnName="cmpnt_txt_cntnt_id" DataType="decimal" />
+    <Column Name="DataContextId" ColumnName="poc_cntnt_data_contxt_id" DataType="decimal" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

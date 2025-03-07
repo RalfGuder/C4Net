@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ObjectReference" TableName="OBJ_REF">
+    <Column Name="RelativeCoordinateSystemId" ColumnName="rel_coord_sys_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemId" ColumnName="obj_ref_obj_item_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="LocationId" ColumnName="obj_ref_loc_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="ObjectItemLocationIndex" ColumnName="obj_ref_obj_item_loc_ix" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

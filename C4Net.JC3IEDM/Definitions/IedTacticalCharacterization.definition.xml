@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="IedTacticalCharacterization" TableName="IED_TAC_CHRTZN">
+    <Column Name="ActionEventId" ColumnName="act_event_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ActionEventDetailIndex" ColumnName="act_event_det_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Emplacement" ColumnName="empl_code" DataType="string" />
+    <Column Name="EmploymentMethod" ColumnName="employ_mthd_code" DataType="string" />
+    <Column Name="Suicide" ColumnName="suicide_code" DataType="string" />
+    <Column Name="UseSequence" ColumnName="use_seq_code" DataType="string" />
+    <Column Name="VehiclePlacement" ColumnName="vehicle_plcmnt_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

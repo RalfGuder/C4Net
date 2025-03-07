@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="CandidateTargetListAuthorisation" TableName="CTGTLST_AUTH">
+    <Column Name="CandidateTargetListId" ColumnName="ctgtlst_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="ctgtlst_auth_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Indicator" ColumnName="ind_code" DataType="string" AllowNulls="false" />
+    <Column Name="PriorityOrdinal" ColumnName="prio_ord" DataType="int" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

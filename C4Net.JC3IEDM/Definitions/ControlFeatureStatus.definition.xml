@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ControlFeatureStatus" TableName="CFEAT_STAT">
+    <Column Name="Id" ColumnName="cfeat_stat_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ObjectItemStatusIndex" ColumnName="obj_item_stat_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="InvestigationStatus" ColumnName="invstg_stat_code" DataType="string" />
+    <Column Name="CbrnThreatLevel" ColumnName="cbrn_thrt_lvl_code" DataType="string" />
+    <Column Name="SecurityStatus" ColumnName="security_stat_code" DataType="string" />
+    <Column Name="UsageStatus" ColumnName="usage_stat_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

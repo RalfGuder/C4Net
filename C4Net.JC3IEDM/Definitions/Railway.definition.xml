@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="Railway" TableName="RAILWAY">
+    <Column Name="Id" ColumnName="railway_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="TrackGauge" ColumnName="track_gauge_code" DataType="string" />
+    <Column Name="TrackCount" ColumnName="track_cnt" DataType="short" />
+    <Column Name="TrainDensityCount" ColumnName="train_density_cnt" DataType="short" />
+    <Column Name="BlockDistanceDimension" ColumnName="block_dist_dim" DataType="double" />
+    <Column Name="SleeperDensityDimension" ColumnName="sleeper_density_dim" DataType="double" />
+    <Column Name="GrossTrailingLoadQuantity" ColumnName="gross_trailing_load_qty" DataType="int" />
+    <Column Name="MaximumSpeedRate" ColumnName="max_speed_rate" DataType="double" />
+    <Column Name="TractionSystem" ColumnName="traction_sys_code" DataType="string" />
+    <Column Name="SignalSystem" ColumnName="signal_sys_code" DataType="string" />
+    <Column Name="SignalSystemEfficiency" ColumnName="signal_sys_effc_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

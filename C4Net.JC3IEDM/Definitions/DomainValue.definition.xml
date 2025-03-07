@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="DomainValue" TableName="DOM_VAL">
+    <Column Name="DomainId" ColumnName="dom_id" DataType="int" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="dom_val_ix" DataType="long" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="DescriptionText" ColumnName="descr_txt" DataType="string" AllowNulls="false" />
+    <Column Name="NameText" ColumnName="name_txt" DataType="string" />
+    <Column Name="DefinitionText" ColumnName="def_txt" DataType="string" />
+    <Column Name="Type" ColumnName="type_code" DataType="string" AllowNulls="false" />
+    <Column Name="StandardisationLevel" ColumnName="stdn_lvl_code" DataType="string" AllowNulls="false" />
+    <Column Name="SourceText" ColumnName="src_txt" DataType="string" />
+  </Table>
+</Definition>

@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="InstrumentLandingSystem" TableName="INST_LNDG_SYS">
+    <Column Name="Id" ColumnName="inst_lndg_sys_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="BeamWidthDimension" ColumnName="beam_width_dim" DataType="double" />
+    <Column Name="GlidePathAngle" ColumnName="glide_path_angle" DataType="double" />
+    <Column Name="MagneticVariationAngle" ColumnName="magn_varn_angle" DataType="double" />
+    <Column Name="SlavedVariationAngle" ColumnName="slaved_varn_angle" DataType="double" />
+    <Column Name="BearingAngle" ColumnName="brng_angle" DataType="double" />
+    <Column Name="ThresholdCrossingHeightDimension" ColumnName="thrsh_crsn_height_dim" DataType="double" />
+    <Column Name="LocaliserDistanceDimension" ColumnName="localizer_dist_dim" DataType="double" />
+    <Column Name="DistanceMeasuringEquipmentDistanceDimension" ColumnName="dist_mesn_eqpt_dist_dim" DataType="double" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

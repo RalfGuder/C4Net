@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ObjectItemAddress" TableName="OBJ_ITEM_ADDR">
+    <Column Name="ObjectItemId" ColumnName="obj_item_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="AddressId" ColumnName="addr_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="obj_item_addr_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="CallSignText" ColumnName="call_sign_txt" DataType="string" />
+    <Column Name="Primacy" ColumnName="primacy_code" DataType="string" />
+    <Column Name="AuthorisationIndicator" ColumnName="auth_ind_code" DataType="string" />
+    <Column Name="TransmitReceive" ColumnName="trns_rcv_code" DataType="string" />
+    <Column Name="NetworkId" ColumnName="netwrk_id" DataType="decimal" />
+    <Column Name="NetworkFrequencyIndex" ColumnName="netwrk_freq_ix" DataType="decimal" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

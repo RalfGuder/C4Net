@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="ActionEventDetail" TableName="ACT_EVENT_DET">
+    <Column Name="ActionEventId" ColumnName="act_event_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="act_event_det_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Classification" ColumnName="clsfc_code" DataType="string" />
+    <Column Name="CrimeIndicator" ColumnName="crime_ind_code" DataType="string" />
+    <Column Name="Text" ColumnName="txt" DataType="string" />
+    <Column Name="ReportingDataId" ColumnName="rptd_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="IntendedOutcome" ColumnName="intended_outcome_code" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

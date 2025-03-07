@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="PlanOrderHeaderContent" TableName="PLN_ORDR_HDR_CNTNT">
+    <Column Name="PlanOrderId" ColumnName="pln_ordr_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Index" ColumnName="pln_ordr_hdr_cntnt_ix" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="NameText" ColumnName="name_txt" DataType="string" />
+    <Column Name="NicknameText" ColumnName="nickname_txt" DataType="string" />
+    <Column Name="SerialNumberText" ColumnName="serial_no_txt" DataType="string" />
+    <Column Name="SponsorTypeText" ColumnName="sponsor_type_txt" DataType="string" />
+    <Column Name="TimeZone" ColumnName="time_zone_code" DataType="string" />
+    <Column Name="Datetime" ColumnName="dttm" DataType="string" AllowNulls="false" />
+    <Column Name="MessageReferenceNumberText" ColumnName="msg_ref_no_txt" DataType="string" />
+    <Column Name="SecurityClassificationId" ColumnName="security_clsfc_id" DataType="decimal" />
+    <Column Name="PlaceOfIssueText" ColumnName="place_of_issue_txt" DataType="string" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A94E6998-B88F-4116-A478-EC356278B536}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>C4Net.Core</RootNamespace>
+    <AssemblyName>C4Net.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accessor\IObjectAccessor.cs" />
+    <Compile Include="Accessor\IObjectCreator.cs" />
+    <Compile Include="Accessor\IObjectProxy.cs" />
+    <Compile Include="Accessor\IObjectProxyAlias.cs" />
+    <Compile Include="Accessor\ObjectProxy.cs" />
+    <Compile Include="Accessor\ObjectProxyAlias.cs" />
+    <Compile Include="Accessor\ObjectProxyBuilder.cs" />
+    <Compile Include="Accessor\ObjectProxyFactory.cs" />
+    <Compile Include="AssemblyInfo\BaseAssemblyInfo.cs" />
+    <Compile Include="AssemblyInfo\FileAssemblyInfo.cs" />
+    <Compile Include="AssemblyInfo\TypeAssemblyInfo.cs" />
+    <Compile Include="Attributes\AttributeUtil.cs" />
+    <Compile Include="Attributes\StringValueAttribute.cs" />
+    <Compile Include="Attributes\StringValueExtension.cs" />
+    <Compile Include="Conversions\BaseConversion.cs" />
+    <Compile Include="Conversions\Common\BoolConversion.cs" />
+    <Compile Include="Conversions\Common\EnumConversion.cs" />
+    <Compile Include="Conversions\Common\StringConversion.cs" />
+    <Compile Include="Conversions\ConversionDelegate.cs" />
+    <Compile Include="Conversions\ConversionManager.cs" />
+    <Compile Include="Conversions\IConversion.cs" />
+    <Compile Include="Conversions\IConversionManager.cs" />
+    <Compile Include="IoC\DefaultContainer.cs" />
+    <Compile Include="IoC\InversionContainer.cs" />
+    <Compile Include="IoC\InversionExpiration.cs" />
+    <Compile Include="IoC\InversionInstance.cs" />
+    <Compile Include="IoC\InversionItem.cs" />
+    <Compile Include="IoC\InversionLifetime.cs" />
+    <Compile Include="Log\DefaultLogger.cs" />
+    <Compile Include="Log\ILoggable.cs" />
+    <Compile Include="Log\LoggableBase.cs" />
+    <Compile Include="Log\LoggableClass.cs" />
+    <Compile Include="Log\LogSeverity.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Types\GenericArguments.cs" />
+    <Compile Include="Types\TypeResolver.cs" />
+    <Compile Include="Types\TypesManager.cs" />
+    <Compile Include="Utils\BaseXmlManager.cs" />
+    <Compile Include="Utils\BaseXmlManagerItem.cs" />
+    <Compile Include="Utils\IXmlManagerItem.cs" />
+    <Compile Include="Utils\NodeAttributes.cs" />
+    <Compile Include="Utils\StringUtil.cs" />
+    <Compile Include="Utils\XmlResources.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="AircraftType" TableName="ACFT_TYPE">
+    <Column Name="Id" ColumnName="acft_type_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="Category" ColumnName="cat_code" DataType="string" AllowNulls="false" />
+    <Column Name="AirframeDesign" ColumnName="airframe_design_code" DataType="string" />
+    <Column Name="Model" ColumnName="model_code" DataType="string" />
+    <Column Name="Manning" ColumnName="manning_code" DataType="string" />
+    <Column Name="MilitaryCivilian" ColumnName="mil_civ_code" DataType="string" />
+    <Column Name="MainPurpose" ColumnName="main_purpose_code" DataType="string" />
+    <Column Name="DesignRole" ColumnName="design_role_code" DataType="string" />
+    <Column Name="DesignRange" ColumnName="design_range_code" DataType="string" />
+    <Column Name="WeatherQualifier" ColumnName="weather_qual_code" DataType="string" />
+    <Column Name="TrainingCategory" ColumnName="training_cat_code" DataType="string" />
+    <Column Name="LoadCategory" ColumnName="load_cat_code" DataType="string" />
+    <Column Name="TakeoffAndLanding" ColumnName="takeoff_and_lndg_code" DataType="string" />
+    <Column Name="WingSpanDimension" ColumnName="wing_span_dim" DataType="double" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>

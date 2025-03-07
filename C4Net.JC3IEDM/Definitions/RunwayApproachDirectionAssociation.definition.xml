@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<Definition>
+  <Table Name="RunwayApproachDirectionAssociation" TableName="RUNWAY_APPR_DIR_ASSOC">
+    <Column Name="RunwayId" ColumnName="runway_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="ApproachDirectionId" ColumnName="appr_dir_id" DataType="decimal" PrimaryKey="true" AllowNulls="false" />
+    <Column Name="SlopeRatio" ColumnName="slope_rat" DataType="double" />
+    <Column Name="LandingDistanceDimension" ColumnName="lndg_dist_dim" DataType="double" />
+    <Column Name="TakeoffDistanceDimension" ColumnName="takeoff_dist_dim" DataType="double" />
+    <Column Name="CreatorId" ColumnName="creator_id" DataType="decimal" AllowNulls="false" />
+    <Column Name="UpdateSeqnr" ColumnName="update_seqnr" DataType="long" AllowNulls="false" />
+  </Table>
+</Definition>
